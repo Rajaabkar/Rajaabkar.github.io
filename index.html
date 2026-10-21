@@ -1,0 +1,1688 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%230A0F1C%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-family=%22monospace%22 font-size=%2226%22 font-weight=%22700%22 text-anchor=%22middle%22 fill=%22%23FFA270%22%3E%26lt;/%26gt;%3C/text%3E%3C/svg%3E">
+<meta property="og:title" content="Raja Abkar · Senior Software Developer">
+<meta property="og:description" content="مطوّرة برمجيات بخبرة تتجاوز 7 سنوات في الأنظمة والتطبيقات وتكامل الأنظمة وأتمتة الأعمال بالذكاء الاصطناعي.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0A0F1C">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<title>Raja Abkar</title>
+<meta name="description" content="Raja Abkar, Senior Software Developer & Technical Project Coordinator, Riyadh">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<script>
+/* ============ SITE CONFIG: edit these values ============
+   availability: "open" | "selective" | "unavailable"           */
+window.SITE_CONFIG = {
+  availability: "open",
+  email: "Rajaabkar4@gmail.com",
+  phoneDisplay: "+966 530 263 952",
+  whatsapp: "966530263952",
+  linkedin: "https://www.linkedin.com/in/raja-abkar-developer/",
+  github: "https://github.com/Rajaabkar"
+};
+(function(){var l='ar';try{l=localStorage.getItem('ra-lang')||'ar'}catch(e){}
+var d=document.documentElement;d.setAttribute('data-lang',l);d.dir=l==='ar'?'rtl':'ltr';d.lang=l;})();
+</script>
+<style>
+/* Layout: an IDE-styled portfolio. Two-column hero (copy | code window with real file tabs), then Featured Projects (filterable, illustrative previews, expandable details) as the main section, AI & Automation with a labelled prototype demo, services, grouped skills, expandable experience log, companies, delivery pipeline, contact. Navy ground, gold accent, syntax colors only inside code. */
+:root{
+  --bg:#0A0F1C; --panel:#0F1627; --panel2:#141D32; --line:#222C45; --line2:#2C3754;
+  --fg:#E8EBF2; --mute:#8D97B2; --cm:#76829F;
+  --gold:#FFA270; --gold2:#FFC6A0; --gold-soft:rgba(255,162,112,.13); --on-gold:#1C0F08; --glow:rgba(255,150,100,.17);
+  --kw:#F48FB1; --fn:#82C4FF; --ty:#7EE2B8;
+  --sans:"Cairo",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+  --code:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#FBF7F4; --panel:#FFFFFF; --panel2:#EEF1F7; --line:#D6DCE8; --line2:#C6CEDD;
+  --fg:#111A2C; --mute:#4F5B75; --cm:#66728C;
+  --gold:#C2531A; --gold2:#E9874F; --gold-soft:rgba(194,83,26,.09); --on-gold:#FFFFFF; --glow:rgba(233,135,79,.16);
+  --kw:#B4235F; --fn:#0B5CAD; --ty:#0F6B36; color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#FBF7F4; --panel:#FFFFFF; --panel2:#EEF1F7; --line:#D6DCE8; --line2:#C6CEDD;
+  --fg:#111A2C; --mute:#4F5B75; --cm:#66728C;
+  --gold:#C2531A; --gold2:#E9874F; --gold-soft:rgba(194,83,26,.09); --on-gold:#FFFFFF; --glow:rgba(233,135,79,.16);
+  --kw:#B4235F; --fn:#0B5CAD; --ty:#0F6B36; color-scheme:light}
+html:not([data-lang="en"]) .en, html[data-lang="en"] .ar{display:none!important}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.75;overflow-x:clip;padding-bottom:calc(28px + env(safe-area-inset-bottom,0px));-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--panel)}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+::selection{background:var(--gold-soft)}
+.wrap{max-width:1200px;margin-inline:auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+@media (max-width:520px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}}
+h1,h2,h3,h4{margin:0;line-height:1.3;text-wrap:balance;font-weight:700}
+p{margin:0}
+ul{margin:0}
+.k{color:var(--kw)}.s{color:var(--gold)}.f{color:var(--fn)}.t{color:var(--ty)}.c{color:var(--cm);font-style:italic}.p{color:var(--mute)}
+
+/* ---------- nav ---------- */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--panel) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.logo{font-family:var(--code);font-weight:700;font-size:15px;text-decoration:none;direction:ltr;white-space:nowrap;flex:none}
+.logo .cur{display:inline-block;width:7px;height:15px;background:var(--gold);vertical-align:-2px;margin-left:3px;animation:caret 1.1s steps(1) infinite}
+@keyframes caret{50%{opacity:0}}
+.links{display:flex;gap:4px;margin-inline-start:auto}
+.links a{text-decoration:none;color:var(--mute);font-size:14.5px;font-weight:500;padding:6px 12px;border-radius:8px;transition:color .2s,background .2s}
+.links a:hover{color:var(--fg);background:var(--panel2)}
+.links a[aria-current="true"]{color:var(--gold)}
+.nav-r{display:flex;gap:8px;align-items:center}
+.kbtn{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--fg);background:var(--panel2);border:1px solid var(--line);border-radius:8px;height:36px;padding:0 12px;cursor:pointer;transition:border-color .2s}
+.kbtn:hover{border-color:var(--gold)}
+.kbtn kbd{direction:ltr;unicode-bidi:isolate;font-family:var(--code);font-size:11px;color:var(--mute);border:1px solid var(--line2);border-radius:4px;padding:0 5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:15px;text-decoration:none;border-radius:10px;min-height:46px;padding:0 22px;border:1px solid transparent;cursor:pointer;transition:transform .18s cubic-bezier(.2,.8,.2,1),border-color .2s,background .2s;white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-gold{background:var(--gold);color:var(--on-gold)}
+.btn-gold:hover{transform:translateY(-1px)}
+.btn-line{border-color:var(--line2);background:transparent}
+.btn-line:hover{border-color:var(--gold)}
+.btn-sm{min-height:36px;padding:0 14px;font-size:13.5px;border-radius:8px}
+.arr{display:inline-block;transition:transform .2s}
+html[dir="rtl"] .arr{transform:scaleX(-1)}
+.btn:hover .arr{transform:translateX(3px)}
+html[dir="rtl"] .btn:hover .arr{transform:scaleX(-1) translateX(3px)}
+@media (max-width:1060px){.links{display:none}.nav-r{margin-inline-start:auto}.kbtn kbd{display:none}}
+@media (min-width:1061px){.kbtn .menu-l{display:none}}
+@media (max-width:420px){.nav-r .btn{display:none}}
+
+/* ---------- section scaffolding ---------- */
+.sec{padding-block:112px;scroll-margin-top:72px;border-top:1px solid var(--line)}
+@media (max-width:700px){.sec{padding-block:72px}}
+.ftab{display:inline-flex;align-items:center;gap:8px;font-family:var(--code);font-size:12.5px;color:var(--mute);direction:ltr;margin-bottom:4px;align-self:flex-start}
+.ftab::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--gold)}
+.sh{display:flex;flex-direction:column;gap:14px;margin-bottom:44px;max-width:720px}
+.sh h2{font-size:clamp(28px,3.4vw,40px);font-weight:800;letter-spacing:-.005em}
+.sh p{color:var(--mute);font-size:17px;max-width:62ch}
+.reveal{animation:lift linear both;animation-timeline:view();animation-range:entry 0% entry 45%}
+@keyframes lift{from{transform:translateY(28px)}}
+.chips{display:flex;flex-wrap:wrap;gap:6px;direction:ltr}
+html[dir="rtl"] .chips{justify-content:flex-end}
+.chip{font-family:var(--code);font-size:12px;line-height:1.5;border:1px solid var(--line);border-radius:6px;padding:2px 8px;color:var(--mute);background:var(--bg);white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.p-done{color:var(--ty);background:color-mix(in srgb,var(--ty) 12%,transparent)}
+.p-wip{color:var(--gold);background:var(--gold-soft)}
+.p-demo{color:var(--fn);background:color-mix(in srgb,var(--fn) 12%,transparent)}
+
+/* ---------- hero ---------- */
+.hero{padding-block:72px 96px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:56px;align-items:center}
+@media (max-width:980px){.hero .wrap{grid-template-columns:1fr;gap:48px}.hero{padding-block:48px 72px}}
+.hero-copy{display:flex;flex-direction:column;gap:26px;min-width:0}
+.avail{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 14px 5px 12px;background:var(--panel)}
+.avail .dot{width:8px;height:8px;border-radius:50%;background:var(--av,var(--ty));box-shadow:0 0 0 4px color-mix(in srgb,var(--av,var(--ty)) 18%,transparent)}
+.hero h1{font-size:clamp(38px,5vw,62px);font-weight:800;line-height:1.2;letter-spacing:-.01em}
+html[data-lang="en"] .hero h1{letter-spacing:-.025em;line-height:1.12}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.lede{color:var(--mute);font-size:18px;line-height:1.85;max-width:56ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+@media (max-width:480px){.cta .btn{flex:1 1 100%}}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,max-content));gap:0;margin-top:6px}
+.fact{padding-inline-end:28px;display:flex;flex-direction:column;gap:2px}
+.fact+.fact{padding-inline-start:28px;border-inline-start:1px solid var(--line)}
+.fact b{font-family:var(--code);font-size:26px;font-weight:700;line-height:1.2;direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums;align-self:flex-start}
+.fact span{font-size:13.5px;color:var(--mute)}
+@media (max-width:440px){.fact{padding-inline-end:12px}.fact+.fact{padding-inline-start:12px}.fact b{font-size:22px}.fact span{font-size:12.5px;line-height:1.4}}
+
+.ide{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden;direction:ltr;min-width:0;box-shadow:0 30px 70px -45px rgba(0,0,0,.6)}
+.ide-bar{display:flex;align-items:center;gap:12px;padding:0 14px;height:40px;border-bottom:1px solid var(--line);background:var(--panel2)}
+.lights{display:flex;gap:7px}.lights i{width:10px;height:10px;border-radius:50%;background:var(--line2)}
+.ide-bar .ttl{flex:1;text-align:center;font-family:var(--code);font-size:12px;color:var(--mute);margin-right:40px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.etabs{display:flex;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.etabs::-webkit-scrollbar{display:none}
+.etab{font-family:var(--code);font-size:12.5px;color:var(--mute);background:transparent;border:0;border-right:1px solid var(--line);padding:9px 16px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:8px;transition:color .2s,background .2s}
+.etab::before{content:"";width:7px;height:7px;border-radius:2px;background:var(--fn);opacity:.8}
+.etab:hover{color:var(--fg)}
+.etab[aria-selected="true"]{color:var(--fg);background:var(--panel);box-shadow:inset 0 2px 0 var(--gold)}
+.editor{display:grid;grid-template-columns:42px minmax(0,1fr);font-family:var(--code);font-size:13.5px;line-height:24px;padding-block:14px;min-height:292px;overflow-x:auto}
+.ln{text-align:right;padding-right:12px;color:var(--cm);opacity:.7;user-select:none;white-space:pre}
+.src{white-space:pre;padding-inline:8px 18px}
+.term{border-top:1px solid var(--line);background:var(--bg);font-family:var(--code);font-size:12.5px;line-height:1.85;padding:10px 16px 14px;overflow-x:auto}
+.term .th{font-size:11px;letter-spacing:.12em;color:var(--mute);margin-bottom:4px}
+.term .row{display:block;white-space:pre}
+.term .cur{display:inline-block;width:7px;height:14px;background:var(--fg);vertical-align:-2px;animation:caret 1s steps(1) infinite}
+@media (max-width:560px){.editor{font-size:12px;line-height:22px;grid-template-columns:32px minmax(0,1fr)}}
+
+/* ---------- projects ---------- */
+.filters{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:4px;margin-bottom:28px}
+.fbtn{flex:none;font-size:14px;font-weight:600;color:var(--mute);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:7px 16px;cursor:pointer;transition:color .2s,border-color .2s,background .2s;white-space:nowrap}
+.fbtn:hover{color:var(--fg);border-color:var(--line2)}
+.fbtn[aria-pressed="true"]{color:var(--on-gold);background:var(--gold);border-color:var(--gold)}
+html[dir="rtl"] .fbtn .n{margin:0 6px 0 0!important}
+.fbtn .n{margin:0 0 0 6px;display:inline-block;direction:ltr;unicode-bidi:isolate;font-family:var(--code);font-size:11.5px;opacity:.75;margin-inline-start:6px}
+.pgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+@media (max-width:820px){.pgrid{grid-template-columns:1fr}}
+.pcard{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .25s,transform .25s cubic-bezier(.2,.8,.2,1)}
+.pcard:hover{border-color:var(--line2);transform:translateY(-2px)}
+.pv{position:relative;aspect-ratio:16/8;max-width:100%;background:var(--bg);border-bottom:1px solid var(--line);overflow:hidden;direction:ltr}
+.pv svg{position:absolute;inset:0;width:100%;height:100%}
+.pv-tag{position:absolute;bottom:10px;left:12px;font-family:var(--code);font-size:10.5px;color:var(--cm);background:color-mix(in srgb,var(--bg) 80%,transparent);padding:1px 6px;border-radius:4px}
+.pv-file{position:absolute;top:10px;left:12px;font-family:var(--code);font-size:11px;color:var(--mute)}
+.pbody{padding:24px;display:flex;flex-direction:column;gap:14px;flex:1}
+.ptop{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.pcat{font-family:var(--code);font-size:11.5px;letter-spacing:.06em;color:var(--mute);direction:ltr}
+.pcard h3{font-size:21px;font-weight:700}
+.pname{font-family:var(--code);font-size:12.5px;color:var(--fn);direction:ltr;unicode-bidi:isolate;display:block;margin-top:2px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:15px;margin:0}
+.kv dt{color:var(--cm);font-size:13.5px;font-weight:600;padding-top:1px;white-space:nowrap}
+.kv dd{margin:0;color:var(--fg);min-width:0}
+.kv dd.m{color:var(--mute)}
+.pfoot{margin-top:auto;display:flex;flex-direction:column;gap:14px;padding-top:4px}
+.plink{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;text-decoration:none;color:var(--on-gold);background:linear-gradient(135deg,var(--gold),var(--gold2));border-radius:10px;padding:8px 16px;transition:transform .18s}
+.plink:hover{transform:translateY(-1px)}
+details.more{border-top:1px solid var(--line);padding-top:12px}
+details.more summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:var(--gold);width:max-content}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:"+";font-family:var(--code);font-size:15px;transition:transform .2s}
+details.more[open] summary::after{transform:rotate(45deg)}
+details.more ul{padding-inline-start:20px;margin-top:10px;display:flex;flex-direction:column;gap:6px;color:var(--mute);font-size:14.5px}
+details.more ul li::marker{color:var(--gold)}
+details.more .lnk{margin-top:12px;font-size:13.5px;color:var(--cm)}
+details.more .lnk a{color:var(--fn)}
+.more-wrap{display:flex;justify-content:center;margin-top:24px}
+.others{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:14px;color:var(--mute)}
+.others .chip{font-size:12.5px}
+.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--mute);border:1px dashed var(--line2);border-radius:var(--r)}
+
+/* preview drawings (theme-aware) */
+.g-line{stroke:var(--line);fill:none}
+.g-line2{stroke:var(--line2);fill:none}
+.g-panel{fill:var(--panel2);stroke:var(--line)}
+.g-panel0{fill:var(--panel);stroke:var(--line)}
+.g-gold{fill:var(--gold)}.g-goldS{stroke:var(--gold);fill:none}
+.g-fn{fill:var(--fn)}.g-fnS{stroke:var(--fn);fill:none}
+.g-ty{fill:var(--ty)}.g-kw{fill:var(--kw)}
+.g-mute{fill:var(--line2)}
+.g-fg{fill:var(--fg);font-family:"JetBrains Mono",monospace;font-size:10px}
+
+/* ---------- AI ---------- */
+.ai-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:start}
+@media (max-width:980px){.ai-grid{grid-template-columns:1fr}}
+.caps{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:560px){.caps{grid-template-columns:1fr}}
+.cap{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cap .sig{font-family:var(--code);font-size:12px;color:var(--fn);direction:ltr;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap h3{font-size:17px}
+.cap p{font-size:14.5px;color:var(--mute)}
+.cap a{font-size:13.5px;font-weight:600;color:var(--gold);text-decoration:none;margin-top:auto}
+.cap a:hover{text-decoration:underline}
+.demo{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden;min-width:0;scroll-margin-top:80px}
+.demo-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel2);flex-wrap:wrap}
+.demo-h b{font-size:15px}
+.demo-note{display:flex;gap:10px;align-items:flex-start;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--gold-soft);font-size:13.5px;color:var(--fg)}
+.demo-note svg{flex:none;width:16px;height:16px;margin-top:3px;color:var(--gold)}
+.qs{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.q{font-size:14px;font-weight:600;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer;text-align:start;transition:border-color .2s,background .2s}
+.q:hover{border-color:var(--line2)}
+.q[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft)}
+.chat{padding:20px 16px;display:flex;flex-direction:column;gap:14px;min-height:360px}
+.call{font-family:var(--code);font-size:12.5px;direction:ltr;text-align:left;color:var(--mute);overflow-wrap:anywhere}
+.bub{padding:14px 16px;border-radius:12px;font-size:15px;line-height:1.75;border:1px solid var(--line);background:var(--bg)}
+.typing{display:flex;gap:5px;padding:16px;align-self:flex-start}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--mute);animation:blink 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{50%{opacity:.25}}
+.bars{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;align-items:end;height:120px;margin-top:14px;padding-top:8px;border-top:1px dashed var(--line)}
+.bar{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:4px;height:100%;min-width:0}
+.bar .v{font-family:var(--code);font-size:11px;font-variant-numeric:tabular-nums;direction:ltr}
+.bar .col{width:100%;max-width:40px;border-radius:4px 4px 1px 1px;background:var(--gold);transform-origin:bottom;animation:grow .6s cubic-bezier(.2,.8,.2,1) both}
+.bar .col.fc{background:repeating-linear-gradient(135deg,var(--fn) 0 5px,color-mix(in srgb,var(--fn) 40%,transparent) 5px 10px)}
+.bar .lb{font-size:12px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+@keyframes grow{from{transform:scaleY(.06)}}
+.ret{display:block;margin-top:12px;font-family:var(--code);font-size:12px;color:var(--cm);direction:ltr;text-align:left}
+
+/* ---------- services ---------- */
+.svc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--line)}
+@media (max-width:940px){.svc{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.svc{grid-template-columns:1fr}}
+.sv{padding:26px;display:flex;flex-direction:column;gap:10px;min-width:0;background:var(--panel);transition:background .25s}
+.sv.wide{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,400px);gap:14px 36px;align-items:center;background:linear-gradient(100deg,var(--gold-soft),transparent 75%),var(--panel)}
+html[dir="rtl"] .sv.wide{background:linear-gradient(260deg,var(--gold-soft),transparent 75%),var(--panel)}
+.sv.wide .wide-main{display:flex;flex-direction:column;gap:10px;min-width:0}
+.sv.wide h3{font-size:20px}
+.sv.wide .sig{color:var(--gold)}
+@media (max-width:760px){.sv.wide{grid-template-columns:1fr}}
+.sv:hover{background:var(--panel2)}
+.sv .sig{font-family:var(--code);font-size:12.5px;direction:ltr;text-align:left;color:var(--fn);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sv h3{font-size:18px}
+.sv p{color:var(--mute);font-size:15px}
+
+
+/* ---------- skills ---------- */
+.skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:16px}
+.sk{border:1px solid var(--line);border-radius:12px;background:var(--panel);overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.sk-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.sk-h h3{font-size:16.5px}
+.sk-h .file{font-family:var(--code);font-size:11.5px;color:var(--cm);direction:ltr}
+.sk .chips{padding:16px 18px}
+.certs{margin-top:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:20px 22px;display:flex;flex-direction:column;gap:14px}
+.certs h3{font-size:16.5px}
+.certs ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;direction:ltr}
+html[dir="rtl"] .certs ul{justify-content:flex-end}
+.certs li{font-size:13.5px;padding:4px 12px;border-radius:8px;background:var(--panel2);border:1px solid var(--line)}
+.certs li.or{border-color:color-mix(in srgb,var(--gold) 45%,var(--line));color:var(--gold)}
+
+/* ---------- experience ---------- */
+.log{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden}
+.log-h{padding:12px 18px;border-bottom:1px solid var(--line);font-family:var(--code);font-size:12.5px;color:var(--mute);background:var(--panel2);direction:ltr;text-align:left;overflow-x:auto;white-space:nowrap}
+.job{display:grid;grid-template-columns:56px minmax(0,1fr)}
+.job + .job{border-top:1px solid var(--line)}
+.rail{position:relative}
+.rail::before{content:"";position:absolute;inset-inline-start:27px;top:0;bottom:0;width:2px;background:var(--line)}
+.job:first-of-type .rail::before{top:34px}
+.job:last-child .rail::before{bottom:calc(100% - 34px)}
+.rail::after{content:"";position:absolute;inset-inline-start:21px;top:28px;width:14px;height:14px;border-radius:50%;background:var(--panel);border:2px solid var(--gold)}
+.job.head .rail::after{background:var(--gold)}
+.job details{padding-block:20px;padding-inline:0 22px}
+.job summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:start}
+.job summary::-webkit-details-marker{display:none}
+.jmeta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 12px;font-family:var(--code);font-size:12px;color:var(--mute);direction:ltr}
+html[dir="rtl"] .jmeta{justify-content:flex-end}
+.jmeta .h{color:var(--gold)}
+.jmeta .ref{border:1px solid var(--line2);border-radius:999px;padding:0 8px;color:var(--ty)}
+.job h3{font-size:19px}
+.job .org{color:var(--fn);font-size:15px;font-weight:600}
+.tog{font-size:13.5px;font-weight:700;color:var(--gold);display:flex;align-items:center;gap:6px;white-space:nowrap;grid-row:2/4;grid-column:2;align-self:center}
+.tog::after{content:"+";font-family:var(--code);font-size:16px;transition:transform .2s}
+.job details[open] .tog::after{transform:rotate(45deg)}
+.tog .cl{display:none}
+.job details[open] .tog .op{display:none}
+.job details[open] .tog .cl{display:inline}
+.job ul{padding-inline-start:20px;margin-top:14px;display:flex;flex-direction:column;gap:6px;color:var(--mute);font-size:15px;max-width:76ch}
+.job ul li::marker{color:var(--gold)}
+@media (max-width:560px){.job{grid-template-columns:40px minmax(0,1fr)}.rail::before{inset-inline-start:19px}.rail::after{inset-inline-start:13px}.job summary{grid-template-columns:1fr}.tog{grid-column:1;grid-row:auto}}
+
+/* ---------- companies ---------- */
+.cos{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media (max-width:1100px){.cos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1101px){.co{flex-direction:column;align-items:flex-start}}
+@media (max-width:520px){.cos{grid-template-columns:1fr}}
+.co{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:16px 18px;min-width:0;transition:border-color .25s}
+.co:hover{border-color:color-mix(in srgb,var(--gold) 50%,var(--line))}
+.mk{flex:none;width:48px;height:48px;border-radius:10px;display:grid;place-items:center;font-family:var(--code);font-weight:700;font-size:16px;color:var(--gold);background:var(--gold-soft);border:1px solid color-mix(in srgb,var(--gold) 30%,transparent)}
+.mk.logo{display:flex;align-items:center;justify-content:center;overflow:hidden;padding:6px;border-color:color-mix(in srgb,var(--fg) 10%,transparent)}
+.mk.logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;min-width:0;min-height:0}
+@media (max-width:1100px){.mk.logo{width:84px}}
+@media (min-width:1101px){.co .mk{width:100%;height:76px;font-size:22px}}
+.co div{min-width:0}
+.co h3{font-size:16.5px;line-height:1.35}
+.co div > span{display:block;font-size:13.5px;color:var(--mute)}
+.co .y{font-family:var(--code);font-size:12px;color:var(--cm);direction:ltr;unicode-bidi:isolate}
+
+/* ---------- process ---------- */
+.stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.stages{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.stages{grid-template-columns:1fr}}
+.stg{border:1px solid var(--line);border-radius:12px;background:var(--panel);padding:20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.stg-h{display:flex;align-items:center;justify-content:space-between;font-family:var(--code);font-size:12.5px;color:var(--mute);direction:ltr}
+.stg-h b{color:var(--gold);font-weight:500}
+.stg h3{font-size:17px}
+.stg p{color:var(--mute);font-size:14.5px}
+
+/* ---------- contact ---------- */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+@media (max-width:940px){.contact{grid-template-columns:1fr}}
+.box{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);overflow:hidden;min-width:0;display:flex;flex-direction:column}
+.box-h{display:flex;align-items:center;gap:10px;padding:0 16px;height:44px;border-bottom:1px solid var(--line);background:var(--panel2);font-family:var(--code);font-size:12.5px;color:var(--mute);direction:ltr}
+.box-h .m{color:var(--ty);font-weight:700}
+.chan{padding:20px;display:flex;flex-direction:column;gap:10px}
+.ch{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--bg);min-width:0}
+.ch .ic{flex:none;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:var(--panel2);color:var(--gold)}
+.ch .ic svg{width:18px;height:18px}
+.ch > div{flex:1;min-width:0}
+.ch .lbl{display:block;font-size:13px;color:var(--mute);line-height:1.4}
+.ch .val{display:block;font-family:var(--code);font-size:14px;direction:ltr;unicode-bidi:isolate;overflow-wrap:anywhere}
+html[dir="rtl"] .ch .val{text-align:right}
+.ch .acts{display:flex;gap:6px;flex:none}
+.mini{font-size:13px;font-weight:600;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:5px 12px;cursor:pointer;text-decoration:none;white-space:nowrap;transition:border-color .2s}
+.mini:hover{border-color:var(--gold)}
+@media (max-width:440px){.ch{flex-wrap:wrap}.ch .acts{width:100%;padding-inline-start:52px}}
+form.compose{padding:20px;display:flex;flex-direction:column;gap:14px}
+.fld{display:flex;flex-direction:column;gap:6px}
+.fld label{font-size:14px;font-weight:600}
+.fld input,.fld select,.fld textarea{font:inherit;font-size:15px;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;transition:border-color .2s}
+.fld textarea{min-height:110px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--gold)}
+.send{display:flex;flex-wrap:wrap;gap:10px}
+@media (max-width:480px){.send .btn{flex:1 1 100%}}
+.hint{font-size:13px;color:var(--cm)}
+
+footer{padding-block:32px 40px;border-top:1px solid var(--line);color:var(--mute);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+footer .code{font-family:var(--code);font-size:12.5px;direction:ltr}
+
+/* ---------- status bar ---------- */
+.status{position:fixed;left:0;right:0;bottom:0;z-index:55;display:flex;align-items:center;height:calc(26px + env(safe-area-inset-bottom,0px));padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px);background:var(--panel2);border-top:1px solid var(--line);font-family:var(--code);font-size:11.5px;color:var(--mute);direction:ltr;overflow:hidden;white-space:nowrap}
+.status > span{padding:0 12px;display:flex;align-items:center;gap:6px;height:26px}
+.status .br{background:var(--gold);color:var(--on-gold);font-weight:700}
+.status .av i{width:7px;height:7px;border-radius:50%;background:var(--av,var(--ty))}
+.status .sp{margin-left:auto}
+@media (max-width:560px){.status .opt{display:none}}
+
+/* ---------- palette ---------- */
+.pal-bg{position:fixed;inset:0;z-index:90;background:color-mix(in srgb,var(--bg) 72%,transparent);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:flex;justify-content:center;padding:calc(10vh + env(safe-area-inset-top,0px)) 16px 16px}
+.pal{width:min(560px,100%);align-self:flex-start;background:var(--panel);border:1px solid var(--line2);border-radius:12px;box-shadow:0 30px 70px -30px rgba(0,0,0,.6);overflow:hidden;animation:pop .16s cubic-bezier(.2,.8,.2,1)}
+@keyframes pop{from{transform:scale(.98);opacity:0}}
+.pal input{width:100%;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--fg);font:inherit;font-size:16px;padding:14px 16px}
+.pal input:focus{outline:none}
+.pal ul{list-style:none;padding:6px;max-height:340px;overflow:auto}
+.pal li{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;cursor:pointer;font-size:15px}
+.pal li .fn{font-family:var(--code);font-size:12px;color:var(--cm);margin-inline-start:auto;direction:ltr}
+.pal li.on{background:var(--gold-soft)}
+.pal .tip{padding:8px 14px;border-top:1px solid var(--line);font-family:var(--code);font-size:11px;color:var(--cm);direction:ltr}
+
+.toast{position:fixed;bottom:calc(44px + env(safe-area-inset-bottom,0px));left:50%;transform:translate(-50%,12px);background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:8px;font-size:14px;font-weight:600;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:95}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+/* ---------- warm visual layer ---------- */
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:
+  radial-gradient(620px 420px at 78% 38%,var(--glow),transparent 70%),
+  radial-gradient(520px 360px at 12% 80%,color-mix(in srgb,var(--fn) 9%,transparent),transparent 70%)}
+html[dir="rtl"] .hero::before{transform:scaleX(-1)}
+.hero::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+  background-image:radial-gradient(color-mix(in srgb,var(--mute) 30%,transparent) 1px,transparent 1.3px);background-size:26px 26px;
+  -webkit-mask-image:radial-gradient(ellipse at 60% 40%,#000 0%,transparent 70%);mask-image:radial-gradient(ellipse at 60% 40%,#000 0%,transparent 70%)}
+.hero .wrap{position:relative;z-index:1}
+.hero h1 em{background:linear-gradient(100deg,var(--gold),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent;padding-inline:2px}
+.hero-copy > *{animation:up .8s cubic-bezier(.2,.8,.2,1) both}
+.hero-copy > *:nth-child(2){animation-delay:.08s}.hero-copy > *:nth-child(3){animation-delay:.16s}.hero-copy > *:nth-child(4){animation-delay:.24s}.hero-copy > *:nth-child(5){animation-delay:.32s}
+.ide{animation:up 1s .2s cubic-bezier(.2,.8,.2,1) both;border-color:color-mix(in srgb,var(--gold) 22%,var(--line));box-shadow:0 40px 90px -45px color-mix(in srgb,var(--gold) 55%,transparent)}
+@keyframes up{from{transform:translateY(18px);opacity:.001}}
+.avail{background:color-mix(in srgb,var(--panel) 80%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));box-shadow:0 12px 28px -14px var(--gold)}
+.btn-gold:hover{box-shadow:0 16px 34px -14px var(--gold)}
+.btn-line{background:color-mix(in srgb,var(--panel) 70%,transparent)}
+.fbtn[aria-pressed="true"]{background:linear-gradient(135deg,var(--gold),var(--gold2));border-color:transparent}
+.ftab{background:var(--gold-soft);color:var(--gold);padding:3px 12px 3px 10px;border-radius:999px;font-weight:500}
+.sh h2{background:linear-gradient(180deg,var(--fg),color-mix(in srgb,var(--fg) 78%,var(--gold)));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pcard,.cap,.sk,.co,.stg,.box,.log,.demo,.certs,.svc{border-radius:18px}
+.pcard{box-shadow:0 1px 0 color-mix(in srgb,var(--fg) 4%,transparent)}
+.pcard:hover,.cap:hover,.sk:hover,.stg:hover,.box:hover{border-color:color-mix(in srgb,var(--gold) 50%,var(--line));box-shadow:0 26px 50px -32px color-mix(in srgb,var(--gold) 60%,transparent)}
+.cap,.sk,.stg,.box{transition:border-color .25s,box-shadow .25s,transform .25s cubic-bezier(.2,.8,.2,1)}
+.cap:hover,.stg:hover{transform:translateY(-2px)}
+.pv{background:radial-gradient(110% 100% at 85% 0%,var(--gold-soft),transparent 60%),radial-gradient(90% 90% at 0% 100%,color-mix(in srgb,var(--fn) 8%,transparent),transparent 60%),var(--bg)}
+.pv svg{transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.pcard:hover .pv svg{transform:scale(1.035)}
+.mk{background:linear-gradient(135deg,var(--gold-soft),color-mix(in srgb,var(--gold2) 14%,transparent))}
+.stg-h b{font-size:15px;font-weight:700}
+#contact .sh{max-width:none}
+.status .br{background:linear-gradient(135deg,var(--gold),var(--gold2))}
+@media (prefers-reduced-motion: reduce){.hero-copy > *,.ide{animation:none!important}}
+
+/* ---------- animated background ---------- */
+#bgfx{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;display:block}
+main,footer{position:relative;z-index:1}
+.hero::after{opacity:0}
+.hero-copy{position:relative}
+.hero-copy::before{content:"";position:absolute;inset:-40px -60px;z-index:-1;pointer-events:none;background:radial-gradient(closest-side,color-mix(in srgb,var(--bg) 90%,transparent),transparent)}
+.sh{position:relative}
+.sh::before{content:"";position:absolute;inset:-24px -8px;z-index:-1;pointer-events:none;background:radial-gradient(closest-side,color-mix(in srgb,var(--bg) 85%,transparent),transparent)}
+
+/* ---------- robot guide ---------- */
+.bot{position:fixed;z-index:56;bottom:calc(36px + env(safe-area-inset-bottom,0px));display:flex;align-items:flex-end;gap:6px;pointer-events:none}
+html[dir="rtl"] .bot,html[dir="rtl"] .bot-restore{left:calc(14px + env(safe-area-inset-left,0px))}
+html[dir="ltr"] .bot,html[dir="ltr"] .bot-restore{right:calc(14px + env(safe-area-inset-right,0px))}
+.bot-btn{pointer-events:auto;background:none;border:0;padding:0;cursor:pointer;width:100px;flex:none;filter:drop-shadow(0 8px 18px color-mix(in srgb,var(--gold) 45%,transparent))}
+.bot-svg{display:block;width:100%;height:auto;overflow:visible;animation:bob 3.2s ease-in-out infinite}
+.bot.hop .bot-svg{animation:hop .7s cubic-bezier(.3,1.6,.5,1)}
+@keyframes bob{50%{transform:translateY(-5px)}}
+@keyframes hop{30%{transform:translateY(-14px) rotate(-4deg)}60%{transform:translateY(0) rotate(2deg)}}
+.bot .eye{transform-box:fill-box;transform-origin:center;animation:blink 4.6s infinite}
+@keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.bot .arm-r{transform-box:view-box;transform-origin:83px 100px}
+.bot.hop .arm-r{animation:wave .45s ease-in-out 3}
+@keyframes wave{50%{transform:rotate(-24deg)}}
+.bot .curl-l{transform-box:view-box;transform-origin:26px 40px;animation:sway 3.2s ease-in-out infinite}
+.bot .curl-r{transform-box:view-box;transform-origin:94px 40px;animation:sway 3.2s ease-in-out infinite reverse}
+@keyframes sway{50%{transform:rotate(6deg)}}
+.bot .bot-tip,.bot .bot-core{animation:tipglow 1.8s ease-in-out infinite}
+@keyframes tipglow{50%{opacity:.45}}
+.bot-bubble{pointer-events:none;position:relative;max-width:250px;margin-bottom:64px;background:var(--panel);color:var(--fg);border:1px solid color-mix(in srgb,var(--gold) 50%,var(--line));border-radius:14px;padding:10px 14px;font-size:14px;line-height:1.65;box-shadow:0 18px 40px -20px rgba(0,0,0,.55),0 0 22px -8px color-mix(in srgb,var(--gold) 50%,transparent);opacity:0;transform:translateY(8px) scale(.96);transition:opacity .25s,transform .25s}
+.bot-bubble.on{opacity:1;transform:none;pointer-events:auto}
+.bot-hide{display:block;margin-top:6px;font-size:12px;color:var(--cm);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.bot-hide:hover{color:var(--gold)}
+.bot-restore{position:fixed;z-index:56;bottom:calc(38px + env(safe-area-inset-bottom,0px));width:46px;height:46px;border-radius:50%;padding:6px;cursor:pointer;background:var(--panel);border:1px solid color-mix(in srgb,var(--gold) 50%,var(--line));box-shadow:0 10px 24px -12px var(--gold)}
+.bot-restore svg{width:100%;height:100%;display:block}
+@media (max-width:600px){.bot-btn{width:60px}.bot-bubble{max-width:min(240px,calc(100vw - 110px));font-size:13px;margin-bottom:44px}}
+
+/* real image previews + lightbox */
+.pv-img{display:block;width:100%;padding:0;border:0;border-bottom:1px solid var(--line);cursor:zoom-in;font:inherit}
+.pv-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0;transition:object-position 1.2s cubic-bezier(.4,0,.2,1)}
+.pcard:hover .pv-img img,.pv-img:focus-visible img{object-position:50% 100%;transition:object-position 9s linear}
+.pv-zoom{position:absolute;bottom:10px;left:12px;font-size:12px;font-weight:700;color:#fff;background:rgba(10,15,28,.72);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:3px 12px}
+.plinks{display:flex;flex-wrap:wrap;gap:8px}
+.plink-2{background:transparent;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 55%,var(--line))}
+.shots .post-th{aspect-ratio:16/10}
+@media (min-width:821px){
+  .pcard.feature{grid-column:1/-1;flex-direction:row}
+  .pcard.feature .pv{flex:1.15;aspect-ratio:auto;min-height:420px;border-bottom:0;border-inline-end:1px solid var(--line)}
+  .pcard.feature .pbody{flex:1;justify-content:center}
+}
+.posts{display:flex;flex-direction:column;gap:8px}
+.posts-h{font-size:13.5px;font-weight:700;color:var(--cm)}
+.posts-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.post-th{position:relative;aspect-ratio:1;max-width:100%;padding:0;border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:zoom-in;background:#000}
+.post-th img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.post-th:hover img{transform:scale(1.06)}
+.post-th:hover{border-color:color-mix(in srgb,var(--gold) 60%,var(--line))}
+.lb-count{font-family:var(--code);font-size:13px;opacity:.75;font-weight:500;direction:ltr;unicode-bidi:isolate}
+.lb-scroll.fit{display:flex;align-items:center;justify-content:center;background:transparent;overflow:hidden}
+.lb-scroll.fit img{width:auto;height:auto;max-width:100%;max-height:calc(100vh - 110px);border-radius:12px}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(10,15,28,.7);color:#fff;font-size:28px;line-height:1;cursor:pointer;display:grid;place-items:center}
+.lb-nav:hover{background:rgba(255,162,112,.35)}
+.lb-prev{left:max(14px,env(safe-area-inset-left,0px))}.lb-next{right:max(14px,env(safe-area-inset-right,0px))}
+html[dir="rtl"] .lb-prev{left:auto;right:max(14px,env(safe-area-inset-right,0px))}html[dir="rtl"] .lb-next{right:auto;left:max(14px,env(safe-area-inset-left,0px))}
+.lb-prev::before{content:"‹"}.lb-next::before{content:"›"}
+html[dir="rtl"] .lb-prev::before{content:"›"}html[dir="rtl"] .lb-next::before{content:"‹"}
+.lbx{position:fixed;inset:0;z-index:92;background:rgba(5,8,15,.88);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);display:flex;flex-direction:column;align-items:center;padding:calc(12px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
+.lb-bar{width:min(1000px,100%);display:flex;justify-content:space-between;align-items:center;gap:12px;color:#fff;padding-bottom:10px;font-weight:700}
+.lb-x{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:6px 14px;cursor:pointer;font:inherit;font-size:14px}
+.lb-x:hover{background:rgba(255,255,255,.18)}
+.lb-scroll{width:min(1000px,100%);flex:1;overflow:auto;border-radius:12px;background:#000;overscroll-behavior:contain}
+.lb-scroll img{display:block;width:100%;height:auto}
+
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+
+</head>
+<body>
+<canvas id="bgfx" aria-hidden="true"></canvas>
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Raja Abkar"><span class="p">&lt;</span><span class="k">Raja</span><span class="t">Abkar</span> <span class="p">/&gt;</span><span class="cur"></span></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#projects"><span class="ar">المشاريع</span><span class="en">Projects</span></a>
+      <a href="#ai"><span class="ar">الذكاء الاصطناعي</span><span class="en">AI & Automation</span></a>
+      <a href="#skills"><span class="ar">المهارات</span><span class="en">Skills</span></a>
+      <a href="#experience"><span class="ar">الخبرة</span><span class="en">Experience</span></a>
+      <a href="#contact"><span class="ar">التواصل</span><span class="en">Contact</span></a>
+    </nav>
+    <div class="nav-r">
+      <button class="kbtn" id="palBtn" type="button" aria-haspopup="dialog"><span class="menu-l"><span class="ar">الأقسام</span><span class="en">Menu</span></span><kbd>⌘K</kbd></button>
+      <button class="kbtn" id="langBtn" type="button" aria-label="Switch language / تغيير اللغة"><span class="ar">EN</span><span class="en">عربي</span></button>
+      <a class="btn btn-gold btn-sm" href="#contact"><span class="ar">وظّفني</span><span class="en">Hire me</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="avail" id="availBadge"><i class="dot"></i><span id="availText"></span></span>
+      <h1>
+        <span class="ar">أحوّل الأفكار إلى <em>حلول تقنية</em> تعمل.</span>
+        <span class="en">I turn ideas into <em>technical solutions</em> that work.</span>
+      </h1>
+      <p class="lede">
+        <span class="ar">مطوّرة برمجيات بخبرة تتجاوز 7 سنوات في تطوير الأنظمة والتطبيقات، وبناء واجهات API، وتكامل الأنظمة، وأتمتة الأعمال بالذكاء الاصطناعي، مع خبرة في تنسيق وإدارة المشاريع التقنية.</span>
+        <span class="en">Software developer with 7+ years of experience building systems and applications, APIs and system integrations, and AI-powered business automation, with hands-on experience coordinating and managing technical projects.</span>
+      </p>
+      <div class="cta">
+        <a class="btn btn-gold" href="#projects"><span class="ar">استكشف مشاريعي</span><span class="en">Explore my projects</span><span class="arr">→</span></a>
+        <a class="btn btn-line" href="#contact"><span class="ar">تواصل معي للتوظيف أو التعاون</span><span class="en">Contact me to hire or collaborate</span></a>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>7+</b><span><span class="ar">سنوات خبرة</span><span class="en">years of experience</span></span></div>
+        <div class="fact"><b>10</b><span><span class="ar">جهات عملت معها</span><span class="en">companies</span></span></div>
+        <div class="fact"><b>9</b><span><span class="ar">شهادات احترافية</span><span class="en">certifications</span></span></div>
+      </div>
+    </div>
+
+    <div class="ide" aria-label="Code editor">
+      <div class="ide-bar"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span><span class="ttl" id="ideTitle">profile.ts — raja-abkar</span></div>
+      <div class="etabs" role="tablist" aria-label="Files">
+        <button class="etab" role="tab" type="button" data-file="profile" aria-selected="true">profile.ts</button>
+        <button class="etab" role="tab" type="button" data-file="focus" aria-selected="false">focus.ts</button>
+        <button class="etab" role="tab" type="button" data-file="work" aria-selected="false">recent-work.ts</button>
+      </div>
+      <div class="editor" role="tabpanel"><div class="ln" id="ln"></div><div class="src" id="src"></div></div>
+      <div class="term" aria-label="Terminal">
+        <div class="th">TERMINAL</div>
+        <span class="row"><span class="f">raja@riyadh</span> <span class="p">~ $</span> git log career --oneline</span>
+        <span class="row"><span class="s">a3f9c21</span> <span class="t">(HEAD)</span> 2026  fleet tracking platform · executive AI</span>
+        <span class="row"><span class="s">7b21e04</span>        2025  SNBL TECH · VR solutions & proposals</span>
+        <span class="row"><span class="s">e5d0a77</span>        2020  senior developer @ Communication Experts</span>
+        <span class="row"><span class="s">0000001</span>        2017  init: Oracle developer track <span class="cur"></span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="sec" id="projects">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">projects/</span>
+      <h2><span class="ar">مشاريع مختارة</span><span class="en">Featured projects</span></h2>
+      <p><span class="ar">أنظمة وأدوات بنيتها أو أعمل عليها، مع دوري الفعلي والتقنيات المستخدمة في كل منها.</span><span class="en">Systems and tools I've built or am building, with my actual role and the technologies behind each.</span></p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="fbtn" type="button" data-f="all" aria-pressed="true"><span class="ar">الكل</span><span class="en">All</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="ai" aria-pressed="false"><span class="ar">الذكاء الاصطناعي والأتمتة</span><span class="en">AI & Business Automation</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="web" aria-pressed="false"><span class="ar">تطبيقات الويب ولوحات التحكم</span><span class="en">Web Apps & Dashboards</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="mobile" aria-pressed="false"><span class="ar">تطبيقات الجوال</span><span class="en">Mobile Apps</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="ent" aria-pressed="false"><span class="ar">أنظمة المؤسسات وتكامل API</span><span class="en">Enterprise & API Integrations</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="ux" aria-pressed="false"><span class="ar">تصميم UI/UX</span><span class="en">UI/UX Design</span><span class="n"></span></button>
+      <button class="fbtn" type="button" data-f="pm" aria-pressed="false"><span class="ar">إدارة المشاريع التقنية</span><span class="en">Technical Project Management</span><span class="n"></span></button>
+    </div>
+
+    <div class="pgrid" id="pgrid">
+      <article class="pcard feature" data-cat="web ux">
+        <button class="pv pv-img" type="button" data-lb data-lb-title="Communication Experts">
+          <img src="embed-6.webp" alt="تصميم موقع Communication Experts · Communication Experts website design" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصفحة كاملة ⤢</span><span class="en">View full page ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · UI/UX · CORPORATE</span><span class="pill p-done"><span class="ar">منشور</span><span class="en">Live</span></span></div>
+          <div><h3>Communication Experts</h3><span class="pname">comexperts-web</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">شركة متخصصة في حلول الطيران وتقنية المعلومات والاتصالات تحتاج موقعاً يعرض خدماتها ومشاريعها وشركاءها بصورة احترافية تبني الثقة مع الجهات الكبيرة.</span><span class="en">An aviation and ICT solutions company needed a website that presents its services, projects and partners professionally and builds trust with large organisations.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم الموقع وبرمجته</span><span class="en">Website design &amp; development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">WordPress</span><span class="chip">PHP</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">UI/UX</span></div>
+            <div class="plinks"><a class="plink" href="https://www.comexperts-sa.com/" target="_blank" rel="noopener"><span class="ar">موقع السعودية ↗</span><span class="en">Saudi site ↗</span></a><a class="plink plink-2" href="https://www.comexperts-ae.com/" target="_blank" rel="noopener"><span class="ar">موقع دبي ↗</span><span class="en">Dubai site ↗</span></a></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">أعدت تصميم موقع الشركة القديم بالكامل، وبرمجته مرتين لفرعيها في السعودية ودبي.</span><span class="en">Redesigned the company's old site from scratch and built it twice, for the Saudi and Dubai branches.</span></li>
+                <li><span class="ar">أقسام للحلول: أنظمة الاتصالات الصوتية، وأبراج المراقبة، وكاميرات المراقبة، وتكامل الأنظمة.</span><span class="en">Solution sections: voice communication systems, control towers, CCTV and system integration.</span></li>
+                <li><span class="ar">صفحة خدمات تشمل تصميم الأنظمة، والتوريد، والتركيب، وإدارة المشاريع، والتدريب، وتطوير التطبيقات.</span><span class="en">Services covering system design, supply, installation, project management, training and app development.</span></li>
+                <li><span class="ar">معرض للمشاريع الأخيرة، وشعارات الشركاء والعملاء، وأسئلة شائعة.</span><span class="en">Recent projects gallery, partner and client logos, and an FAQ.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web ux">
+        <button class="pv pv-img" type="button" data-lb data-lb-title="InanoFilms KSA">
+          <img src="embed-2.webp" alt="تصميم موقع InanoFilms KSA · InanoFilms KSA website design" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصفحة كاملة ⤢</span><span class="en">View full page ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · UI/UX · SOCIAL MEDIA</span><span class="pill p-done"><span class="ar">منشور</span><span class="en">Live</span></span></div>
+          <div><h3>InanoFilms KSA</h3><span class="pname">inanofilms-ksa-web</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">الوكيل المعتمد لأفلام النانو سيراميك للسيارات في السعودية يحتاج موقعاً يشرح الحلول والمنتجات والباقات، ويحوّل الزائر إلى حجز موعد أو طلب عرض سعر.</span><span class="en">The authorised nano-ceramic car film installer in Saudi Arabia needed a site that explains its solutions, products and packages, and turns visitors into bookings and quote requests.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم وتطوير الموقع، وتصاميم بوستات السوشيال ميديا</span><span class="en">Website design &amp; development, plus social media post designs</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Web design</span><span class="chip">UI/UX</span><span class="chip">Responsive</span><span class="chip">Social media design</span></div>
+            <div class="posts"><span class="posts-h"><span class="ar">تصاميم بوستات السوشيال ميديا</span><span class="en">Social media post designs</span></span><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="inano-posts" data-lb-title="InanoFilms · Social media"><img src="embed-3.webp" alt="بوست «من نحن؟» لإينانو فيلمز · "Who we are" post for InanoFilms" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="inano-posts" data-lb-title="InanoFilms · Social media"><img src="embed-4.webp" alt="بوست «حماية متكاملة لراحة تدوم» · "Complete protection" post" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="inano-posts" data-lb-title="InanoFilms · Social media"><img src="embed-5.webp" alt="بوست عرض الافتتاح «حماية وتظليل» · Opening offer post" loading="lazy" decoding="async"></button></div></div>
+            <a class="plink" href="https://inanofilms-sa.com" target="_blank" rel="noopener"><span class="ar">زيارة الموقع ↗</span><span class="en">Visit website ↗</span></a>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">أقسام للحلول: العزل الحراري، وحماية الطلاء PPF، وحماية الزجاج، مع سلاسل المنتجات والباقات.</span><span class="en">Sections for each solution (heat insulation, PPF paint protection, glass protection), plus product series and packages.</span></li>
+                <li><span class="ar">خدمة الاستلام من المنزل، ومراحل العمل، وجدول مقارنة مع الخدمات التقليدية.</span><span class="en">Home pick-up service, the work process, and a comparison table against traditional services.</span></li>
+                <li><span class="ar">أزرار واضحة لحجز موعد وطلب عرض سعر والتواصل عبر واتساب.</span><span class="en">Clear calls to book an appointment, request a quote and chat on WhatsApp.</span></li>
+                <li><span class="ar">تصاميم بوستات للسوشيال ميديا بهوية العلامة نفسها.</span><span class="en">Social media post designs in the same brand identity.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web mobile">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="ak" data-lb-title="AnimeKey">
+          <img src="ak-home.webp" alt="الصفحة الرئيسية لمنصة AnimeKey · AnimeKey home page" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · iOS · ANDROID · CMS</span><span class="pill p-done"><span class="ar">منشور</span><span class="en">Live</span></span></div>
+          <div><h3>AnimeKey</h3><span class="pname">animekey</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">منصة بث أنمي تحتاج تجربة مشاهدة واشتراك سلسة على الويب والجوال، مع لوحة إدارة للمحتوى.</span><span class="en">An anime streaming platform needing a smooth viewing and subscription experience on web and mobile, with a content admin panel.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">برمجة وتطوير الموقع والتطبيق مع تحليل البيانات، واختبار الجودة</span><span class="en">Website & app development with data analysis, plus QA</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Next.js 14</span><span class="chip">React</span><span class="chip">Angular 17</span><span class="chip">QA testing</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="ak" data-lb-title="AnimeKey"><img src="ak-login.webp" alt="شاشة الدخول · Sign-in" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="ak" data-lb-title="AnimeKey"><img src="ak-pay.webp" alt="صفحة الاشتراكات · Subscriptions" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="ak" data-lb-title="AnimeKey"><img src="ak-top.webp" alt="قائمة الأعلى مشاهدة · Top five" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="ak" data-lb-title="AnimeKey"><img src="ak-m2.webp" alt="تطبيق الجوال · Mobile app" loading="lazy" decoding="async"></button></div></div>
+            <div class="plinks"><a class="plink" href="https://animekey.tv/" target="_blank" rel="noopener"><span class="ar">زيارة المنصة ↗</span><span class="en">Visit platform ↗</span></a></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">منصة لعرض الأنمي والمسلسلات على الويب وiOS وAndroid، مع لوحة إدارة للمحتوى (CMS).</span><span class="en">Anime and series streaming on web, iOS and Android, with a content management panel.</span></li>
+                <li><span class="ar">صفحات الدخول والتسجيل، والاشتراكات والدفع، وقوائم المحتوى مثل «الأعلى مشاهدة».</span><span class="en">Sign-in, subscriptions and payment, and content lists such as the Top Five.</span></li>
+                <li><span class="ar">تقنيات المشروع: لوحة الإدارة بـ Angular 17، والموقع بـ Next.js 14، وتطبيقات جوال أصلية بـ Kotlin وSwiftUI.</span><span class="en">Project stack: admin panel in Angular 17, web in Next.js 14, and native mobile apps in Kotlin and SwiftUI.</span></li>
+                <li><span class="ar">اختبارات مبنية على السيناريوهات للتأكد من مسارات المستخدم.</span><span class="en">Scenario-based testing to validate user flows.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ux web">
+        <button class="pv pv-img" type="button" data-lb data-lb-title="Loop USA">
+          <img src="embed-1.webp" alt="تصميم متجر Loop USA · Loop USA store design" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصفحة كاملة ⤢</span><span class="en">View full page ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">UI/UX · E-COMMERCE</span><span class="pill p-demo"><span class="ar">تصميم Figma</span><span class="en">Figma design</span></span></div>
+          <div><h3><span class="ar">متجر Loop USA لأدوات الجرافيتي</span><span class="en">Loop USA Graffiti Supplies Store</span></h3><span class="pname">loop-store-ui</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">متجر إلكتروني لعلامة ألوان بخاخ وأدوات جرافيتي في أمريكا، يحتاج تجربة تسوّق جذابة تعرض الألوان الجديدة والتصنيفات وتوصل الفنان للمنتج بسهولة.</span><span class="en">An online store for a spray paint and graffiti supplies brand in the US, needing an engaging shopping experience that showcases new colors and categories and gets artists to the right product fast.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم واجهات وتجربة المستخدم (UI/UX)</span><span class="en">UI/UX design</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Figma</span><span class="chip">UI design</span><span class="chip">UX</span><span class="chip">E-commerce</span></div>
+            <a class="plink" href="https://www.figma.com/design/OURaFLccIUgmacQMGbYd2p/Loop-USA?node-id=0-1" target="_blank" rel="noopener"><span class="ar">عرض التصميم في Figma ↗</span><span class="en">View design in Figma ↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ent web">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="crm" data-lb-title="Multi-company CRM System">
+          <img src="crm-dash.webp" alt="لوحة تحكم نظام CRM · CRM dashboard" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض بالحجم الكامل ⤢</span><span class="en">View full size ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">ENTERPRISE · CRM · DASHBOARD</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3><span class="ar">نظام إدارة علاقات العملاء (CRM)</span><span class="en">Multi-company CRM System</span></h3><span class="pname">blue-hills-crm</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">عميل يحتاج نظاماً واحداً يخدم عدة شركات، لكل شركة بياناتها وعملاؤها وهويتها، بدون أن يرى موظف شركة بيانات شركة أخرى.</span><span class="en">A client needed one system serving several companies, each with its own data, customers and branding, with no cross-company access.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">برمجة وتطوير النظام لشركة Blue Hills</span><span class="en">System development for Blue Hills Company</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">PHP</span><span class="chip">CodeIgniter</span><span class="chip">MySQL</span><span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">RBAC</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">صلاحيات حسب الدور: مدير عام بصلاحيات كاملة، وموظفون بصلاحيات يحددها المدير.</span><span class="en">Role-based access: a super admin with full control, and employees with assigned permissions.</span></li>
+                <li><span class="ar">فصل كامل لبيانات كل شركة، فلا يصل موظف لبيانات شركة أخرى.</span><span class="en">Full data isolation per company, so no employee can see another company's data.</span></li>
+                <li><span class="ar">تخصيص الواجهة والشعار والهوية لكل شركة على حدة.</span><span class="en">Interface, logo and branding customised per company.</span></li>
+                <li><span class="ar">لوحة تحكم تفاعلية بالرسوم البيانية لمتابعة العملاء والمشاريع.</span><span class="en">An interactive dashboard with charts to track customers and projects.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+      <article class="pcard" data-cat="ent web">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <rect class="g-panel0" x="28" y="20" width="344" height="164" rx="10"/>
+            <rect x="28" y="20" width="344" height="24" rx="10" fill="#714B67"/>
+            <text class="g-fg" x="42" y="36" style="fill:#fff;font-weight:700">odoo</text>
+            <rect x="300" y="28" width="58" height="8" rx="4" fill="#ffffff" opacity=".35"/>
+            <g><rect x="44" y="58" width="30" height="30" rx="8" fill="#E46E78"/><rect x="84" y="58" width="30" height="30" rx="8" fill="#5B899E"/><rect x="124" y="58" width="30" height="30" rx="8" fill="#F1A33B"/>
+               <rect x="44" y="98" width="30" height="30" rx="8" fill="#6CC1ED"/><rect x="84" y="98" width="30" height="30" rx="8" fill="#9D6FC4"/><rect x="124" y="98" width="30" height="30" rx="8" fill="#27A28E"/>
+               <rect x="44" y="138" width="30" height="30" rx="8" fill="#F06050"/><rect x="84" y="138" width="30" height="30" rx="8" class="g-gold"/><rect x="124" y="138" width="30" height="30" rx="8" fill="#714B67"/></g>
+            <rect class="g-panel" x="176" y="58" width="180" height="110" rx="8"/>
+            <rect class="g-mute" x="190" y="70" width="70" height="7" rx="3.5"/><rect class="g-gold" x="304" y="68" width="40" height="11" rx="5.5"/>
+            <rect class="g-mute" x="190" y="92" width="44" height="5" rx="2.5"/><rect class="g-panel0" x="246" y="88" width="98" height="13" rx="4"/>
+            <rect class="g-mute" x="190" y="112" width="44" height="5" rx="2.5"/><rect class="g-panel0" x="246" y="108" width="98" height="13" rx="4"/>
+            <rect class="g-mute" x="190" y="132" width="44" height="5" rx="2.5"/><rect x="246" y="128" width="98" height="13" rx="4" style="fill:var(--gold-soft);stroke:var(--gold)"/>
+            <text x="252" y="138" style="fill:var(--gold);font-family:'JetBrains Mono',monospace;font-size:8px">x_custom_field</text>
+            <rect x="190" y="150" width="50" height="10" rx="5" fill="#714B67" opacity=".9"/>
+          </svg>
+          <span class="pv-file">custom_module/__manifest__.py</span>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">ERP · ODOO · CUSTOMIZATION</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3><span class="ar">تخصيص وتطوير أنظمة Odoo ERP</span><span class="en">Odoo ERP Customization & Development</span></h3><span class="pname">odoo-custom-modules</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">الشركات تحتاج نظام Odoo يطابق طريقة عملها الفعلية، بدل أن تغيّر إجراءاتها لتناسب النظام الجاهز.</span><span class="en">Companies need Odoo to match how they actually work, instead of bending their processes to fit the out-of-the-box system.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تخصيص الوحدات الموجودة وإنشاء وحدات جديدة</span><span class="en">Customizing existing modules and building new ones</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Odoo</span><span class="chip">Python</span><span class="chip">XML</span><span class="chip">PostgreSQL</span><span class="chip">ERP workflows</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">إنشاء وحدات (Modules) جديدة حسب احتياج كل جهة.</span><span class="en">Building new modules tailored to each organisation's needs.</span></li>
+                <li><span class="ar">تخصيص الوحدات الموجودة: الحقول، والشاشات، وسير العمل، والتقارير.</span><span class="en">Customizing existing modules: fields, views, workflows and reports.</span></li>
+                <li><span class="ar">دعم سير العمل وعمليات الأعمال على النظام بعد التشغيل.</span><span class="en">Supporting business workflows and operations on the system after go-live.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ent web mobile">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <rect class="g-panel0" x="40" y="26" width="320" height="160" rx="8"/>
+            <rect class="g-panel" x="40" y="26" width="320" height="24" rx="8"/>
+            <text class="g-fg" x="54" y="42">Audit findings</text>
+            <rect class="g-gold" x="300" y="33" width="46" height="11" rx="5.5" opacity=".9"/>
+            <rect class="g-kw" x="54" y="64" width="34" height="12" rx="6" opacity=".85"/><rect class="g-mute" x="100" y="67" width="150" height="6" rx="3"/><rect class="g-mute" x="300" y="67" width="44" height="6" rx="3"/>
+            <rect class="g-gold" x="54" y="92" width="34" height="12" rx="6" opacity=".85"/><rect class="g-mute" x="100" y="95" width="120" height="6" rx="3"/><rect class="g-ty" x="300" y="95" width="44" height="6" rx="3"/>
+            <rect class="g-fn" x="54" y="120" width="34" height="12" rx="6" opacity=".85"/><rect class="g-mute" x="100" y="123" width="170" height="6" rx="3"/><rect class="g-mute" x="300" y="123" width="44" height="6" rx="3"/>
+            <rect class="g-gold" x="54" y="148" width="34" height="12" rx="6" opacity=".85"/><rect class="g-mute" x="100" y="151" width="100" height="6" rx="3"/><rect class="g-ty" x="300" y="151" width="44" height="6" rx="3"/>
+            <line class="g-line" x1="54" y1="84" x2="346" y2="84"/><line class="g-line" x1="54" y1="112" x2="346" y2="112"/><line class="g-line" x1="54" y1="140" x2="346" y2="140"/>
+          </svg>
+          <span class="pv-file">GET /api/findings</span>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">ENTERPRISE · API · MOBILE</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3><span class="ar">نظام إدارة ملاحظات التدقيق</span><span class="en">Audit Finding Management System</span></h3><span class="pname">audit-findings-system</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">متابعة ملاحظات التدقيق ومسؤوليات معالجتها في نظام واحد آمن بدل المتابعة المتفرقة.</span><span class="en">Track audit findings and who owns each fix in one secure system instead of scattered follow-ups.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم وتطوير كامل (Full-stack)</span><span class="en">Full-stack design & development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">ASP.NET Core</span><span class="chip">EF Core</span><span class="chip">PostgreSQL</span><span class="chip">JWT</span><span class="chip">RabbitMQ</span><span class="chip">Angular</span><span class="chip">Flutter</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">واجهة RESTful API آمنة بمصادقة JWT وصلاحيات حسب الدور.</span><span class="en">Secure RESTful API with JWT authentication and role-based access control.</span></li>
+                <li><span class="ar">سير عمل لإدارة الملاحظات، ومعالجة غير متزامنة عبر RabbitMQ وBackground Workers.</span><span class="en">Finding-management workflows with async processing via RabbitMQ and background workers.</span></li>
+                <li><span class="ar">واجهة Angular متجاوبة بمسارات محمية وتسجيل دخول.</span><span class="en">Responsive Angular front-end with protected routes and authentication.</span></li>
+                <li><span class="ar">تطبيق جوال بـ Flutter للنظام.</span><span class="en">A Flutter mobile app for the system.</span></li>
+              </ul>
+              <p class="lnk"><span class="ar">رابط العرض: يُضاف لاحقاً</span><span class="en">Demo link: to be added</span></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ent web">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="erp" data-lb-title="ERP Systems: Sales, Inventory, Accounting &amp; HR">
+          <img src="erp-hr.webp" alt="لوحة نظام الموارد البشرية · HR system dashboard" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">BUSINESS SYSTEMS · ERP</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3><span class="ar">أنظمة ERP: المبيعات والمخزون والمحاسبة والموارد البشرية</span><span class="en">ERP Systems: Sales, Inventory, Accounting & HR</span></h3><span class="pname">erp-systems</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">ربط المبيعات والمشتريات والمخزون والحسابات وشؤون الموظفين في أنظمة موحّدة بتقارير واضحة.</span><span class="en">Connect sales, purchasing, inventory, accounts and HR in unified systems with clear reports.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم وتطوير الأنظمة وقواعد البيانات</span><span class="en">Systems & database design and development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">VB.NET</span><span class="chip">SQL Server</span><span class="chip">MySQL</span><span class="chip">Crystal Reports</span><span class="chip">PHP</span><span class="chip">RBAC</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="erp" data-lb-title="ERP Systems: Sales, Inventory, Accounting &amp; HR"><img src="erp-hr2.webp" alt="نظام الموارد البشرية · HR system" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="erp" data-lb-title="ERP Systems: Sales, Inventory, Accounting &amp; HR"><img src="erp-sales.webp" alt="نظام المبيعات والمخزون · Sales &amp; inventory" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="erp" data-lb-title="ERP Systems: Sales, Inventory, Accounting &amp; HR"><img src="erp-sales2.webp" alt="نظام المبيعات · Sales system" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="erp" data-lb-title="ERP Systems: Sales, Inventory, Accounting &amp; HR"><img src="erp-vb.webp" alt="نظام ERP مكتبي · Desktop ERP" loading="lazy" decoding="async"></button></div></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">نظام لإدارة المبيعات والمشتريات والمخزون والحسابات بـ VB.NET، مع تقارير Crystal Reports.</span><span class="en">Sales, purchasing, inventory and accounts management in VB.NET, with Crystal Reports.</span></li>
+                <li><span class="ar">نظام موارد بشرية على الويب بـ PHP وMySQL لإدارة الموظفين والمشاريع.</span><span class="en">A web HR system in PHP and MySQL for staff and project management.</span></li>
+                <li><span class="ar">نظام ERP مكتبي بـ Visual Basic.</span><span class="en">A desktop ERP system in Visual Basic.</span></li>
+                <li><span class="ar">صلاحيات حسب الدور، وقواعد بيانات مصممة لسلامة البيانات والأداء.</span><span class="en">Role-based access, with databases designed for integrity and performance.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web ux">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="osas" data-lb-title="Osas Alqimam Construction">
+          <img src="osas-1.webp" alt="موقع أسس القمم · Osas Alqimam website" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · UI/UX · CORPORATE</span><span class="pill p-done"><span class="ar">منشور</span><span class="en">Live</span></span></div>
+          <div><h3><span class="ar">أسس القمم</span><span class="en">Osas Alqimam</span></h3><span class="pname">osas-alqimam-web</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">شركة سعودية متخصصة في تنظيم الفعاليات وتجهيز الأجنحة والمعارض وإدارة منصات التواصل، تحتاج موقعاً يعرّف بخدماتها ويسهّل التواصل معها.</span><span class="en">A Saudi company specialising in events, exhibition booths and social media management needed a site presenting its services and making it easy to get in touch.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم واجهات الموقع (UI/UX) وبرمجته</span><span class="en">UI/UX design &amp; website development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">UI/UX</span><span class="chip">WordPress</span><span class="chip">PHP</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="osas" data-lb-title="Osas Alqimam Construction"><img src="osas-2.webp" alt="من نحن · About" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="osas" data-lb-title="Osas Alqimam Construction"><img src="osas-3.webp" alt="الخدمات · Services" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="osas" data-lb-title="Osas Alqimam Construction"><img src="osas-4.webp" alt="تواصل معنا · Contact" loading="lazy" decoding="async"></button></div></div>
+            <div class="plinks"><a class="plink" href="https://www.osasalqimam.com/" target="_blank" rel="noopener"><span class="ar">زيارة الموقع ↗</span><span class="en">Visit website ↗</span></a></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="mov" data-lb-title="Movies &amp; Series Streaming Site">
+          <img src="mov-1.webp" alt="منصة عرض الأفلام · Movies streaming site" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB APP · STREAMING</span><span class="pill p-demo"><span class="ar">مشروع تطبيقي</span><span class="en">Personal build</span></span></div>
+          <div><h3><span class="ar">منصة عرض الأفلام والمسلسلات</span><span class="en">Movies & Series Streaming Site</span></h3><span class="pname">movies-streaming</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">موقع لعرض الأفلام والبرامج بتجربة مشاهدة حديثة تعمل على الكمبيوتر والجوال والتابلت.</span><span class="en">A site for browsing and watching films and shows, with a modern experience across laptop, mobile and tablet.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم وبرمجة الموقع</span><span class="en">Design & development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Next.js</span><span class="chip">React</span><span class="chip">Tailwind</span><span class="chip">MongoDB</span><span class="chip">Node.js</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="mov" data-lb-title="Movies &amp; Series Streaming Site"><img src="mov-2.webp" alt="صفحة الفيلم · Title page" loading="lazy" decoding="async"></button><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="mov" data-lb-title="Movies &amp; Series Streaming Site"><img src="mov-3.webp" alt="تسجيل الدخول · Sign-in" loading="lazy" decoding="async"></button></div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="topnet" data-lb-title="TopNet">
+          <img src="topnet-1.webp" alt="موقع TopNet · TopNet website" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · CORPORATE</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3>TopNet</h3><span class="pname">topnet-web</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">شركة تقنية واتصالات تحتاج موقعاً عصرياً يعرض خدماتها وأرقامها.</span><span class="en">A tech and connectivity company needed a modern site presenting its services and numbers.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">برمجة وتطوير الموقع</span><span class="en">Website development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">WordPress</span><span class="chip">PHP</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="topnet" data-lb-title="TopNet"><img src="topnet-2.webp" alt="الخدمات والأرقام · Services &amp; numbers" loading="lazy" decoding="async"></button></div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ent">
+        <button class="pv pv-img" type="button" data-lb data-lb-fit data-lb-group="qr" data-lb-title="QR E-Invoice Generator">
+          <img src="qr-1.webp" alt="مولّد الفواتير برمز QR · QR invoice generator" loading="lazy" decoding="async">
+          <span class="pv-zoom"><span class="ar">عرض الصور ⤢</span><span class="en">View images ⤢</span></span>
+        </button>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">DESKTOP APP · E-INVOICING</span><span class="pill p-done"><span class="ar">مكتمل</span><span class="en">Completed</span></span></div>
+          <div><h3><span class="ar">نظام الفواتير الإلكترونية برمز QR</span><span class="en">QR E-Invoice Generator</span></h3><span class="pname">qr-e-invoice</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">إصدار فواتير إلكترونية تحسب المبلغ والضريبة وتولّد رمز QR للفاتورة تلقائياً.</span><span class="en">Issue e-invoices that calculate totals and VAT and generate the invoice QR code automatically.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">برمجة النظام لـ Communication Experts</span><span class="en">Built for Communication Experts</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">C#</span><span class="chip">.NET</span><span class="chip">Visual Studio</span></div>
+            <div class="posts shots"><div class="posts-row"><button class="post-th" type="button" data-lb data-lb-fit data-lb-group="qr" data-lb-title="QR E-Invoice Generator"><img src="qr-2.webp" alt="حفظ رمز QR · Saving the QR code" loading="lazy" decoding="async"></button></div></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <g class="g-line"><path d="M0 50h400M0 100h400M0 150h400M70 0v200M160 0v200M250 0v200M340 0v200"/></g>
+            <g class="g-line2" stroke-width="6" stroke-linecap="round"><path d="M-10 132 C 80 120, 120 60, 210 70 S 330 150, 420 110"/><path d="M120 -10 C 130 60, 170 120, 160 210"/></g>
+            <path class="g-goldS" stroke-width="2.5" stroke-dasharray="6 6" d="M40 126 C 100 116, 130 66, 210 70 S 310 138, 360 116"/>
+            <circle class="g-gold" cx="40" cy="126" r="5"/>
+            <circle class="g-ty" cx="210" cy="70" r="6"/><circle class="g-ty" cx="210" cy="70" r="13" opacity=".2"/>
+            <circle class="g-fn" cx="160" cy="160" r="5"/>
+            <rect class="g-panel0" x="262" y="18" width="120" height="50" rx="8"/>
+            <circle class="g-ty" cx="278" cy="34" r="4"/><rect class="g-mute" x="288" y="31" width="60" height="6" rx="3"/>
+            <circle class="g-fn" cx="278" cy="52" r="4"/><rect class="g-mute" x="288" y="49" width="76" height="6" rx="3"/>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB PLATFORM · TRACKING</span><span class="pill p-wip"><span class="ar">قيد التطوير</span><span class="en">In progress</span></span></div>
+          <div><h3><span class="ar">منصة تتبّع أساطيل المركبات</span><span class="en">Fleet Tracking Platform</span></h3><span class="pname">fleet-tracking-platform</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">رؤية مواقع المركبات وحالتها لحظياً في منصة واحدة لإدارة الأسطول.</span><span class="en">See vehicle locations and status in real time on one fleet-management platform.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">مطوّرة المنصة لشركة تقنية سعودية</span><span class="en">Platform developer for a Saudi tech company</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Real-time tracking</span><span class="chip">Web platform</span><span class="chip">Fleet management</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">تطوير منصة لتتبّع مركبات الأساطيل ومتابعة حالتها لحظياً.</span><span class="en">Developing a platform to track fleet vehicles and monitor their status in real time.</span></li>
+                <li><span class="ar">اسم الجهة والتفاصيل محفوظة بموجب اتفاقية سرية.</span><span class="en">Client name and details are kept confidential under an NDA.</span></li>
+              </ul>
+              <p class="lnk"><span class="ar">رابط العرض: يُضاف عند الإطلاق</span><span class="en">Demo link: added at launch</span></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ai">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <rect class="g-panel0" x="190" y="24" width="170" height="28" rx="14"/><rect class="g-mute" x="206" y="35" width="120" height="6" rx="3"/>
+            <rect class="g-panel0" x="40" y="66" width="240" height="112" rx="12"/>
+            <rect class="g-mute" x="56" y="82" width="180" height="6" rx="3"/><rect class="g-mute" x="56" y="96" width="130" height="6" rx="3"/>
+            <g class="g-gold"><rect x="64" y="132" width="30" height="34" rx="3"/><rect x="108" y="142" width="30" height="24" rx="3"/><rect x="152" y="148" width="30" height="18" rx="3"/><rect x="196" y="154" width="30" height="12" rx="3"/></g>
+            <circle class="g-gold" cx="318" cy="120" r="22" opacity=".15"/><circle class="g-goldS" cx="318" cy="120" r="22" stroke-width="1.5"/>
+            <text class="g-fg" x="306" y="124" style="fill:var(--gold)">AI</text>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">AI · ANALYTICS</span><span class="pill p-wip"><span class="ar">قيد البناء</span><span class="en">In progress</span></span></div>
+          <div><h3><span class="ar">المساعد التنفيذي بالذكاء الاصطناعي</span><span class="en">AI Executive Assistant</span></h3><span class="pname">executive-ai-assistant</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">أصحاب المنشآت الصغيرة والمتوسطة يحتاجون صورة سريعة عن أداء المبيعات والإيرادات والمالية دون تحليل يدوي.</span><span class="en">SME owners need a quick view of sales performance, revenue and finance without manual analysis.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">صاحبة الفكرة والمطوّرة</span><span class="en">Product owner & developer</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">AI assistant</span><span class="chip">Business analytics</span><span class="chip">Reporting</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">بيانات الشركة تبقى عندها.</span><span class="en">The company's data stays with the company.</span></li>
+                <li><span class="ar">يرفع للمالك تقارير أداء الموظفين وفريق المبيعات والإيرادات الشهرية والوضع المالي.</span><span class="en">Reports staff and sales-team performance, monthly revenue and finance to the owner.</span></li>
+                <li><span class="ar">يُبنى على مراحل، وتفاصيله التقنية متاحة عند الطلب.</span><span class="en">Being built in stages; technical details available on request.</span></li>
+              </ul>
+              <p class="lnk"><a href="#demo"><span class="ar">جرّب النموذج التجريبي للواجهة ←</span><span class="en">Try the interface prototype →</span></a></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="ai">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <g class="g-line2" stroke-width="1.5"><path d="M110 62 C 150 62, 150 100, 186 100"/><path d="M110 138 C 150 138, 150 100, 186 100"/><path d="M274 100 C 300 100, 300 62, 320 62"/><path d="M274 100 C 300 100, 300 138, 320 138"/></g>
+            <rect class="g-panel0" x="30" y="44" width="80" height="36" rx="8"/><circle class="g-fn" cx="46" cy="62" r="5"/><rect class="g-mute" x="58" y="59" width="40" height="6" rx="3"/>
+            <rect class="g-panel0" x="30" y="120" width="80" height="36" rx="8"/><circle class="g-fn" cx="46" cy="138" r="5"/><rect class="g-mute" x="58" y="135" width="40" height="6" rx="3"/>
+            <rect x="186" y="78" width="88" height="44" rx="10" style="fill:var(--gold-soft);stroke:var(--gold)"/><text class="g-fg" x="222" y="104" style="fill:var(--gold)">AI</text>
+            <rect class="g-panel0" x="320" y="44" width="60" height="36" rx="8"/><circle class="g-ty" cx="334" cy="62" r="5"/><rect class="g-mute" x="344" y="59" width="26" height="6" rx="3"/>
+            <rect class="g-panel0" x="320" y="120" width="60" height="36" rx="8"/><circle class="g-ty" cx="334" cy="138" r="5"/><rect class="g-mute" x="344" y="135" width="26" height="6" rx="3"/>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">AUTOMATION · WORKFLOWS</span><span class="pill p-demo"><span class="ar">نموذج عملي</span><span class="en">Working demo</span></span></div>
+          <div><h3><span class="ar">أتمتة عمليات الأعمال بـ n8n</span><span class="en">Business Process Automation with n8n</span></h3><span class="pname">n8n-automation</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">المهام المتكررة بين الأدوات تستهلك وقت الفريق وتؤخر الاستجابة.</span><span class="en">Repetitive work between tools eats team time and slows response.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">بناء سير العمل والتكامل</span><span class="en">Workflow & integration builder</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">n8n</span><span class="chip">AI workflows</span><span class="chip">API integration</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">نموذج عملي لأتمتة الأعمال بالذكاء الاصطناعي، عُرض على فريق إدارة في شركة تسويق رقمي.</span><span class="en">A working AI business-automation demo, presented to a digital-marketing company's management team.</span></li>
+                <li><span class="ar">سير عمل يربط الأدوات ببعض، ويضيف خطوات ذكاء اصطناعي تقرأ البيانات وتتخذ الإجراء المناسب بدل الفريق.</span><span class="en">Workflows that connect tools and add AI steps that read the data and take the next action instead of the team.</span></li>
+              </ul>
+              <p class="lnk"><span class="ar">رابط العرض: يُضاف لاحقاً</span><span class="en">Demo link: to be added</span></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <g class="g-goldS" stroke-width="1.6" stroke-linejoin="round"><path d="M120 50 L170 76 L170 136 L120 162 L70 136 L70 76 Z"/><path d="M70 76 L120 102 L170 76 M120 102 L120 162"/></g>
+            <rect class="g-panel0" x="226" y="36" width="140" height="128" rx="10"/>
+            <rect class="g-mute" x="242" y="52" width="50" height="5" rx="2.5"/><rect class="g-panel" x="242" y="62" width="108" height="16" rx="5"/>
+            <rect class="g-mute" x="242" y="88" width="50" height="5" rx="2.5"/><rect class="g-panel" x="242" y="98" width="108" height="16" rx="5"/>
+            <rect class="g-gold" x="242" y="128" width="108" height="22" rx="6"/>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB TOOL · PRICING</span><span class="pill p-wip"><span class="ar">قيد التطوير</span><span class="en">In progress</span></span></div>
+          <div><h3><span class="ar">حاسبة تسعير الطباعة ثلاثية الأبعاد</span><span class="en">Instant 3D-Print Quote Tool</span></h3><span class="pname">snbl-3d-print-quote</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">العميل يحتاج سعراً ومدة طباعة فورية لملفه بدل انتظار التسعير اليدوي.</span><span class="en">Customers need an instant price and print time for their file instead of waiting for a manual quote.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تصميم وتطوير الأداة لسنبل آرت</span><span class="en">Tool design & development for SNBL ART</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">Web app</span><span class="chip">3D file upload</span><span class="chip">WordPress site</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">رفع ملف التصميم، ثم اختيار الخامة والجودة واللون، ثم سعر ومدة فورية وطلب مباشر.</span><span class="en">Upload a design file, pick material, quality and color, then get an instant price, time and order.</span></li>
+                <li><span class="ar">بهوية موقع snblart.com ومستضافة على النطاق نفسه.</span><span class="en">Styled to snblart.com's identity and hosted on the same domain.</span></li>
+              </ul>
+              <p class="lnk"><span class="ar">رابط العرض: يُضاف عند الإطلاق</span><span class="en">Demo link: added at launch</span></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="web">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <rect class="g-panel0" x="60" y="34" width="132" height="132" rx="10"/>
+            <g id="qrCells" class="g-gold"></g>
+            <rect class="g-panel0" x="222" y="34" width="132" height="132" rx="10"/>
+            <rect class="g-mute" x="236" y="50" width="60" height="5" rx="2.5"/><rect class="g-panel" x="236" y="60" width="104" height="14" rx="4"/>
+            <rect class="g-mute" x="236" y="84" width="60" height="5" rx="2.5"/><rect class="g-panel" x="236" y="94" width="104" height="14" rx="4"/>
+            <rect class="g-mute" x="236" y="118" width="40" height="5" rx="2.5"/><rect class="g-fn" x="236" y="132" width="104" height="20" rx="5" opacity=".9"/>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">WEB · DASHBOARD</span><span class="pill p-wip"><span class="ar">قيد التطوير</span><span class="en">In progress</span></span></div>
+          <div><h3><span class="ar">منصة تسجيل فنّاني الفعاليات</span><span class="en">Artist Event Registration</span></h3><span class="pname">snbl-event-registration</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">جمع طلبات المشاركين وفرزها من مكان واحد بدل الرسائل المتفرقة.</span><span class="en">Collect and review participant applications in one place instead of scattered messages.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">تطوير الصفحة ولوحة الإدارة</span><span class="en">Page & admin dashboard development</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">PHP</span><span class="chip">QR code</span><span class="chip">AR / EN</span><span class="chip">Admin dashboard</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">صفحة تسجيل عبر رمز QR لفناني الجرافيتي والراقصين ومنسّقي الموسيقى والمغنين في فعالية تنظّمها سنبل آرت.</span><span class="en">QR-linked registration for graffiti artists, dancers, DJs and singers at an SNBL ART event.</span></li>
+                <li><span class="ar">ثنائية اللغة، مع لوحة إدارة لمراجعة الطلبات، ومستضافة على snblart.com.</span><span class="en">Bilingual, with an admin dashboard to review applications, hosted on snblart.com.</span></li>
+              </ul>
+              <p class="lnk"><span class="ar">رابط العرض: يُضاف عند الإطلاق</span><span class="en">Demo link: added at launch</span></p>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard" data-cat="pm">
+        <div class="pv" aria-hidden="true">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+            <rect class="g-panel0" x="34" y="30" width="332" height="140" rx="10"/>
+            <rect class="g-mute" x="50" y="46" width="70" height="6" rx="3"/>
+            <rect class="g-panel" x="150" y="44" width="200" height="10" rx="3"/>
+            <rect class="g-mute" x="50" y="76" width="80" height="6" rx="3"/><rect class="g-gold" x="150" y="73" width="90" height="12" rx="6"/>
+            <rect class="g-mute" x="50" y="104" width="64" height="6" rx="3"/><rect class="g-fn" x="210" y="101" width="80" height="12" rx="6" opacity=".9"/>
+            <rect class="g-mute" x="50" y="132" width="74" height="6" rx="3"/><rect class="g-ty" x="270" y="129" width="80" height="12" rx="6" opacity=".9"/>
+            <g class="g-line"><path d="M150 64v96M210 64v96M270 64v96M330 64v96"/></g>
+          </svg>
+          <span class="pv-tag">illustrative preview</span>
+        </div>
+        <div class="pbody">
+          <div class="ptop"><span class="pcat">PROJECT COORDINATION</span><span class="pill p-wip"><span class="ar">مستمر</span><span class="en">Ongoing</span></span></div>
+          <div><h3><span class="ar">تأسيس SNBL TECH وحلول الواقع الافتراضي</span><span class="en">Launching SNBL TECH & VR Solutions</span></h3><span class="pname">snbl-tech</span></div>
+          <dl class="kv">
+            <dt><span class="ar">المشكلة</span><span class="en">Problem</span></dt><dd class="m"><span class="ar">بناء ذراع تقني لوكالة إبداعية، وتقديم حلول الواقع الافتراضي للمدارس والجهات.</span><span class="en">Building a technical arm for a creative agency and bringing VR solutions to schools and organizations.</span></dd>
+            <dt><span class="ar">دوري</span><span class="en">My role</span></dt><dd><span class="ar">منسّقة الحلول التقنية والمشاريع</span><span class="en">Technical solutions & project coordinator</span></dd>
+          </dl>
+          <div class="pfoot">
+            <div class="chips"><span class="chip">VR demos</span><span class="chip">Proposals</span><span class="chip">Pricing</span><span class="chip">Client meetings</span></div>
+            <details class="more"><summary><span class="ar">التفاصيل</span><span class="en">Details</span></summary>
+              <ul>
+                <li><span class="ar">المساهمة في تأسيس SNBL TECH كقسم الحلول التقنية والرقمية تحت سنبل آرت.</span><span class="en">Helped establish SNBL TECH as SNBL ART's technical and digital solutions division.</span></li>
+                <li><span class="ar">تنسيق عروض الواقع الافتراضي واجتماعات العملاء وتواصل الشراكات.</span><span class="en">Coordinated VR demos, client meetings and partnership communications.</span></li>
+                <li><span class="ar">تخطيط الحلول التقنية، وتقدير التكلفة، وإعداد العروض الفنية.</span><span class="en">Technical solution planning, cost estimation and proposal preparation.</span></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </article>
+
+      <div class="empty" id="emptyState" hidden><span class="ar">لا توجد مشاريع في هذا التصنيف بعد.</span><span class="en">No projects in this category yet.</span></div>
+    </div>
+
+    <div class="more-wrap" id="moreWrap"><button class="btn btn-line" id="moreBtn" type="button" aria-controls="pgrid" aria-expanded="false"></button></div>
+    <div class="others"><span><span class="ar">مواقع ومنصات أخرى:</span><span class="en">Other websites & platforms:</span></span><span class="chip">Gulf Painters</span><span class="chip"><span class="ar">تصميم شعارات</span><span class="en">Logo design</span></span></div>
+  </div>
+</section>
+
+<!-- ================= AI ================= -->
+<section class="sec" id="ai">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">ai/automation</span>
+      <h2><span class="ar">الذكاء الاصطناعي وأتمتة الأعمال</span><span class="en">AI & business automation</span></h2>
+      <p><span class="ar">أبني حلول ذكاء اصطناعي وأربطها بالأنظمة التي تعمل بها الشركة فعلاً، لتوفّر الوقت وتعطي الإدارة صورة أوضح.</span><span class="en">I build AI solutions and connect them to the systems a company already runs, to save time and give management a clearer picture.</span></p>
+    </div>
+    <div class="ai-grid">
+      <div class="caps">
+        <div class="cap reveal"><span class="sig">assistant.ask(question)</span><h3><span class="ar">المساعد التنفيذي</span><span class="en">AI Executive Assistant</span></h3><p><span class="ar">مساعد يجيب المالك عن الأداء والإيرادات من بيانات الشركة.</span><span class="en">An assistant that answers the owner's questions on performance and revenue from company data.</span></p><a href="#projects" data-filter-link="ai"><span class="ar">المشروع ←</span><span class="en">The project →</span></a></div>
+        <div class="cap reveal"><span class="sig">workflow.automate(task)</span><h3><span class="ar">أتمتة العمليات</span><span class="en">Business Process Automation</span></h3><p><span class="ar">سير عمل بـ n8n ينفّذ المهام المتكررة بين الأدوات تلقائياً.</span><span class="en">n8n workflows that run repetitive work between tools automatically.</span></p><a href="#projects" data-filter-link="ai"><span class="ar">المشروع ←</span><span class="en">The project →</span></a></div>
+        <div class="cap reveal"><span class="sig">api.integrate(a, b)</span><h3><span class="ar">تكامل الأنظمة عبر API</span><span class="en">API Integrations</span></h3><p><span class="ar">واجهات REST آمنة وطوابير رسائل تربط الأنظمة ببعضها.</span><span class="en">Secure REST APIs and message queues that connect systems together.</span></p><a href="#projects" data-filter-link="ent"><span class="ar">المشاريع ←</span><span class="en">Projects →</span></a></div>
+        <div class="cap reveal"><span class="sig">reports.generate(period)</span><h3><span class="ar">التقارير والتحليلات بالذكاء الاصطناعي</span><span class="en">AI-powered Reporting & Analytics</span></h3><p><span class="ar">تحويل أرقام المبيعات والمالية إلى ملخصات وتنبيهات يفهمها المدير.</span><span class="en">Turning sales and finance figures into summaries and alerts a manager can act on.</span></p><a href="#demo"><span class="ar">النموذج التجريبي ←</span><span class="en">The prototype →</span></a></div>
+      </div>
+
+      <div class="demo reveal" id="demo">
+        <div class="demo-h"><b><span class="ar">المساعد التنفيذي</span><span class="en">Executive Assistant</span></b><span class="pill p-demo"><span class="ar">نموذج تجريبي</span><span class="en">Prototype</span></span></div>
+        <div class="demo-note"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1Zm.75 10.5h-1.5V7h1.5v4.5ZM8 5.75a.9.9 0 1 1 0-1.8.9.9 0 0 1 0 1.8Z"/></svg><span><span class="ar">هذا نموذج لواجهة المنتج. الأسئلة والأرقام بيانات وهمية للعرض فقط، وغير متصلة بأي نظام حقيقي.</span><span class="en">This is an interface prototype. Questions and figures are made-up sample data, not connected to any real system.</span></span></div>
+        <div class="qs" role="group" aria-label="Sample questions">
+          <button class="q" type="button" data-q="0" aria-pressed="true"><span class="ar">أداء فريق المبيعات</span><span class="en">Sales team performance</span></button>
+          <button class="q" type="button" data-q="1" aria-pressed="false"><span class="ar">توقّع الإيرادات</span><span class="en">Revenue forecast</span></button>
+          <button class="q" type="button" data-q="2" aria-pressed="false"><span class="ar">توزيع المصاريف</span><span class="en">Spending breakdown</span></button>
+        </div>
+        <div class="chat" id="chat" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">services.ts</span>
+      <h2><span class="ar">كيف أساعد شركتك</span><span class="en">How I can help your company</span></h2>
+      <p><span class="ar">أبدأ من المشكلة التي تكلّفك وقتاً أو مالاً، ثم أختار التقنية المناسبة لها.</span><span class="en">I start from the problem that costs you time or money, then pick the technology that fits it.</span></p>
+    </div>
+    <div class="svc reveal">
+      <div class="sv"><span class="sig">automate(process)</span><h3><span class="ar">أتمتة الأعمال والذكاء الاصطناعي</span><span class="en">Business automation & AI</span></h3><p><span class="ar">سير عمل يربط أدواتك، ومساعدات ذكية تجهّز التقارير وتتابع المهام.</span><span class="en">Workflows that connect your tools, and assistants that prepare reports and track tasks.</span></p></div>
+      <div class="sv"><span class="sig">erp.connect(sales, stock, finance)</span><h3><span class="ar">أنظمة ERP والأعمال</span><span class="en">ERP & business systems</span></h3><p><span class="ar">مبيعات ومخزون ومحاسبة في نظام واحد، على Odoo بتخصيص يناسبك أو بنظام مبني من الصفر، بصلاحيات وتقارير واضحة.</span><span class="en">Sales, inventory and accounting in one system, on a tailored Odoo setup or built from scratch, with clear roles and reports.</span></p></div>
+      <div class="sv"><span class="sig">web.ship({ rtl: true })</span><h3><span class="ar">تطبيقات الويب والمتاجر</span><span class="en">Web apps & e-commerce</span></h3><p><span class="ar">مواقع ولوحات تحكم ومتاجر ثنائية اللغة، من التصميم حتى النشر.</span><span class="en">Bilingual sites, dashboards and stores, from design to deployment.</span></p></div>
+      <div class="sv"><span class="sig">mobile.build(["ios", "android"])</span><h3><span class="ar">تطبيقات الجوال</span><span class="en">Mobile apps</span></h3><p><span class="ar">تطبيقات iOS وAndroid من كود واحد، متصلة بأنظمتك عبر API.</span><span class="en">iOS and Android apps from one codebase, connected to your systems via APIs.</span></p></div>
+      <div class="sv"><span class="sig">api.secure({ rbac: true })</span><h3><span class="ar">أنظمة المؤسسات والتكامل</span><span class="en">Enterprise systems & integration</span></h3><p><span class="ar">واجهات API بصلاحيات حسب الدور، ومعالجة خلفية، وربط الأنظمة القائمة.</span><span class="en">Role-based APIs, background processing, and integration of existing systems.</span></p></div>
+      <div class="sv"><span class="sig">project.deliver()</span><h3><span class="ar">تنسيق المشاريع التقنية</span><span class="en">Technical project coordination</span></h3><p><span class="ar">جمع المتطلبات، والتسعير، والعروض، وتنسيق الفرق والاختبار حتى التسليم.</span><span class="en">Requirements, pricing, proposals, team coordination and QA through delivery.</span></p></div>
+      <div class="sv wide"><div class="wide-main"><span class="sig">design.ui({ ux: true, rtl: true })</span><h3><span class="ar">تصميم الواجهات وتجربة المستخدم (UI/UX)</span><span class="en">UI/UX design</span></h3><p><span class="ar">واجهات واضحة وسهلة الاستخدام بالعربي والإنجليزي. أصمّم الواجهة وأبرمجها بنفسي، فيطلع المنتج النهائي مطابقاً للتصميم المعتمد.</span><span class="en">Clear, easy-to-use interfaces in Arabic and English. I design the interface and build it myself, so the final product matches the approved design.</span></p></div><div class="chips"><span class="chip">Figma</span><span class="chip">UI design</span><span class="chip">UX & usability</span><span class="chip">RTL / LTR</span><span class="chip">Front-end build</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="sec" id="skills">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">skills/</span>
+      <h2><span class="ar">المهارات التقنية</span><span class="en">Technical skills</span></h2>
+      <p><span class="ar">مجمّعة حسب طبيعة العمل، من سيرتي الذاتية ومشاريعي الفعلية.</span><span class="en">Grouped by the kind of work, taken from my CV and real projects.</span></p>
+    </div>
+    <div class="skills">
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">تطوير الخوادم وواجهات API</span><span class="en">Backend Development & APIs</span></h3><span class="file">backend/</span></div><div class="chips"><span class="chip">ASP.NET Core</span><span class="chip">.NET Core</span><span class="chip">EF Core</span><span class="chip">Node.js</span><span class="chip">Laravel</span><span class="chip">CodeIgniter</span><span class="chip">REST APIs</span><span class="chip">JWT · RBAC</span><span class="chip">RabbitMQ</span><span class="chip">C#</span><span class="chip">PHP</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">Docker</span><span class="chip">AWS</span><span class="chip">OCI</span><span class="chip">CI/CD</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">تطوير الواجهات</span><span class="en">Frontend Development</span></h3><span class="file">frontend/</span></div><div class="chips"><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Angular</span><span class="chip">Next.js</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">Bootstrap</span><span class="chip">Responsive UI</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">تصميم الواجهات وتجربة المستخدم</span><span class="en">UI/UX Design</span></h3><span class="file">design/</span></div><div class="chips"><span class="chip">Figma</span><span class="chip">UI design</span><span class="chip">UX & usability</span><span class="chip">Bilingual RTL/LTR UI</span><span class="chip">Workflow diagrams</span><span class="chip">Motion graphics · After Effects</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">تطبيقات الجوال</span><span class="en">Mobile Development</span></h3><span class="file">mobile/</span></div><div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">React Native</span><span class="chip">Android</span><span class="chip">iOS</span><span class="chip">Android Studio</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">قواعد البيانات</span><span class="en">Databases</span></h3><span class="file">data/</span></div><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">SQL Server</span><span class="chip">Oracle Database</span><span class="chip">SQL · PL/SQL</span><span class="chip">MongoDB</span><span class="chip">Oracle Cloud DB</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">أنظمة ERP والأعمال</span><span class="en">ERP & Business Systems</span></h3><span class="file">erp/</span></div><div class="chips"><span class="chip">Odoo ERP</span><span class="chip">Odoo customization</span><span class="chip">Odoo module development</span><span class="chip">Oracle Forms</span><span class="chip">Oracle Reports</span><span class="chip">WordPress</span><span class="chip">Shopify</span><span class="chip">Magento</span><span class="chip">OpenCart</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">الذكاء الاصطناعي والأتمتة</span><span class="en">AI & Automation</span></h3><span class="file">ai/</span></div><div class="chips"><span class="chip">n8n</span><span class="chip">AI workflow automation</span><span class="chip">Prompt engineering</span><span class="chip">Generative AI tools</span><span class="chip">AI-assisted development</span><span class="chip">AI requirements analysis</span></div></div>
+      <div class="sk reveal"><div class="sk-h"><h3><span class="ar">تنسيق المشاريع والتسليم</span><span class="en">Project Coordination & Delivery</span></h3><span class="file">delivery/</span></div><div class="chips"><span class="chip">Requirements gathering</span><span class="chip">Pricing & proposals</span><span class="chip">QA & test scenarios</span><span class="chip">Workflow diagrams</span><span class="chip">Technical docs</span><span class="chip">Jira</span><span class="chip">Trello</span><span class="chip">Git · GitHub</span></div></div>
+    </div>
+    <div class="certs reveal">
+      <h3><span class="ar">الشهادات</span><span class="en">Certifications</span></h3>
+      <ul>
+        <li class="or">Oracle Cloud Infrastructure Foundations</li>
+        <li class="or">Oracle Cloud Database Services Professional</li>
+        <li>Full Stack Development</li><li>Front-End Development</li><li>React Development</li><li>Android Development</li><li>Flutter E-commerce Development</li><li>UI/UX Design</li><li>Motion Graphics with After Effects</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="sec" id="experience">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">git.log</span>
+      <h2><span class="ar">الخبرة المهنية</span><span class="en">Professional experience</span></h2>
+      <p><span class="ar">افتح أي دور لعرض المسؤوليات الفعلية.</span><span class="en">Open any role to see the actual responsibilities.</span></p>
+    </div>
+    <div class="log reveal">
+      <div class="log-h">$ git log career --graph --decorate</div>
+
+      <div class="job head"><div class="rail"></div><details open>
+        <summary>
+          <span class="jmeta"><span class="h">a3f9c21</span><span class="ref">HEAD</span><span>2026 → now</span></span>
+          <h3><span class="ar">مطوّرة منصة التتبّع</span><span class="en">Tracking Platform Developer</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org"><span class="ar">شركة تقنية سعودية</span><span class="en">Saudi tech company</span></span>
+        </summary>
+        <ul>
+          <li><span class="ar">تطوير منصة لتتبّع مركبات الأساطيل ومتابعة حالتها لحظياً.</span><span class="en">Developing a platform to track fleet vehicles and monitor their status in real time.</span></li>
+        </ul>
+      </details></div>
+
+      <div class="job"><div class="rail"></div><details>
+        <summary>
+          <span class="jmeta"><span class="h">b4e1d90</span><span class="ref">current</span><span>→ now</span></span>
+          <h3><span class="ar">مهندسة برمجيات</span><span class="en">Software Engineer</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org"><span class="ar">حلول الإدامة</span><span class="en">Edama Solutions</span></span>
+        </summary>
+        <ul>
+          <li><span class="ar">مسؤولة عن تطوير تطبيق الجوال الخاص بالشركة على Android وiOS، والتطبيق منشور ومتاح للمستخدمين.</span><span class="en">Responsible for the company's mobile app on Android and iOS; the app is live and in users' hands.</span></li>
+          <li><span class="ar">تطوير التطبيق وتحسينه باستمرار، وبناء الميزات والتحسينات الجديدة.</span><span class="en">Ongoing development and improvement of the app, building new features and enhancements.</span></li>
+          <li><span class="ar">اختبار التطبيق قبل كل إصدار لضمان الجودة والاستقرار.</span><span class="en">Testing each release to ensure quality and stability.</span></li>
+        </ul>
+      </details></div>
+
+      <div class="job"><div class="rail"></div><details>
+        <summary>
+          <span class="jmeta"><span class="h">7b21e04</span><span>2025 → now</span></span>
+          <h3><span class="ar">منسّقة الحلول التقنية والمشاريع</span><span class="en">Technical Solutions & Project Coordinator</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org">SNBL ART · SNBL TECH</span>
+        </summary>
+        <ul>
+          <li><span class="ar">المساهمة في تأسيس SNBL TECH كقسم الحلول التقنية والرقمية تحت سنبل آرت.</span><span class="en">Helped establish SNBL TECH as SNBL ART's technical and digital solutions division.</span></li>
+          <li><span class="ar">تقديم حلول الواقع الافتراضي التعليمية والتجارية للمدارس والجهات.</span><span class="en">Presented educational and business VR solutions to schools and organizations.</span></li>
+          <li><span class="ar">تنسيق عروض الواقع الافتراضي واجتماعات العملاء وتواصل الشراكات.</span><span class="en">Coordinated VR demos, client meetings and partnership communications.</span></li>
+          <li><span class="ar">تخطيط الحلول التقنية، وتقدير التكلفة، وإعداد العروض.</span><span class="en">Technical solution planning, pricing estimation and proposal preparation.</span></li>
+        </ul>
+      </details></div>
+
+      <div class="job"><div class="rail"></div><details>
+        <summary>
+          <span class="jmeta"><span class="h">e5d0a77</span><span>2020 → 2025</span></span>
+          <h3><span class="ar">مطوّرة برمجيات أولى ومنسّقة مشاريع تقنية</span><span class="en">Senior Software Developer & Technical Project Coordinator</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org"><bdi dir="ltr">Communication Experts Ltd.</bdi></span>
+        </summary>
+        <ul>
+          <li><span class="ar">تطوير وإدارة مواقع ومتاجر إلكترونية وأنظمة رقمية لعدة شركات وعلامات تجارية.</span><span class="en">Developed and managed websites, e-commerce platforms and digital systems for multiple businesses and brands.</span></li>
+          <li><span class="ar">قيادة الإعداد التقني والبنية الرقمية لشركات ناشئة، من إنشاء المواقع حتى النشر وإدارة المنصات.</span><span class="en">Led technical setup and digital infrastructure for startups, from website creation to deployment and platform management.</span></li>
+          <li><span class="ar">تنسيق المشاريع البرمجية من جمع المتطلبات والتخطيط حتى الاختبار والتسليم.</span><span class="en">Coordinated software projects from requirements and planning to testing and final delivery.</span></li>
+          <li><span class="ar">تطوير تطبيقات ويب بـ ASP.NET Core وFlutter، وربط واجهات API وإدارة قواعد البيانات.</span><span class="en">Built web apps with ASP.NET Core and Flutter, integrated APIs and managed databases.</span></li>
+          <li><span class="ar">كتابة سيناريوهات اختبار الجودة، ومخططات سير العمل، والتوثيق الفني.</span><span class="en">Wrote QA scenarios, workflow diagrams and technical documentation.</span></li>
+          <li><span class="ar">دعم سير العمل وعمليات الأعمال على أنظمة Odoo، وتحسين تجربة المستخدم.</span><span class="en">Supported ERP workflows and operations on Odoo, and improved UX across products.</span></li>
+        </ul>
+      </details></div>
+
+      <div class="job"><div class="rail"></div><details>
+        <summary>
+          <span class="jmeta"><span class="h">19c4b3e</span><span>2023</span></span>
+          <h3><span class="ar">تطوير وإدارة المنصة الرقمية</span><span class="en">Website Development & Platform Management</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org">Gulf Painters</span>
+        </summary>
+        <ul>
+          <li><span class="ar">قيادة تطوير منصة الشركة الإلكترونية وإدارتها المستمرة.</span><span class="en">Led the development and ongoing management of the company's online platform.</span></li>
+          <li><span class="ar">تحسين بنية الموقع وسهولة استخدامه وطريقة عرضه.</span><span class="en">Improved website structure, usability and presentation.</span></li>
+          <li><span class="ar">تحديث المحتوى وتحسين المنصة لرفع تفاعل المستخدمين.</span><span class="en">Content updates and platform optimization to improve engagement.</span></li>
+        </ul>
+      </details></div>
+
+      <div class="job"><div class="rail"></div><details>
+        <summary>
+          <span class="jmeta"><span class="h">0000001</span><span>2017</span></span>
+          <h3><span class="ar">مسار مطوّر Oracle</span><span class="en">Oracle Developer Track</span></h3>
+          <span class="tog"><span class="op"><span class="ar">التفاصيل</span><span class="en">Details</span></span><span class="cl"><span class="ar">إخفاء</span><span class="en">Hide</span></span></span>
+          <span class="org"><span class="ar">الجامعة العربية المفتوحة</span><span class="en">Arab Open University</span></span>
+        </summary>
+        <ul>
+          <li><span class="ar">تدريب مكثّف في SQL وPL/SQL وOracle Forms وReports.</span><span class="en">Intensive training in SQL, PL/SQL, Oracle Forms and Reports development.</span></li>
+        </ul>
+      </details></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMPANIES ================= -->
+<section class="sec" id="companies">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">clients.ts</span>
+      <h2><span class="ar">جهات عملت معها</span><span class="en">Companies I've worked with</span></h2>
+    </div>
+    <div class="cos">
+      <div class="co reveal"><span class="mk logo" style="background:#0f243a"><img src="logo-edama.webp" alt="Edama Solutions" loading="lazy" decoding="async"></span><div><h3><span class="ar">حلول الإدامة</span><span class="en">Edama Solutions</span></h3><span><span class="ar">مهندسة برمجيات · تطبيقات الجوال</span><span class="en">Software engineer · mobile apps</span></span><span class="y">→ now</span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#012540"><img src="logo-ce.webp" alt="Communication Experts" loading="lazy" decoding="async"></span><div><h3><bdi dir="ltr">Communication Experts Ltd.</bdi></h3><span><span class="ar">مطوّرة أولى ومنسّقة مشاريع</span><span class="en">Senior developer & technical PM</span></span><span class="y">2020 → 2025</span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#23d3e4"><img src="logo-snbl.webp" alt="SNBL ART" loading="lazy" decoding="async"></span><div><h3><span class="ar">سنبل آرت · SNBL TECH</span><span class="en">SNBL ART · SNBL TECH</span></h3><span><span class="ar">منسّقة الحلول التقنية</span><span class="en">Technical solutions coordinator</span></span><span class="y">2025 → now</span></div></div>
+      <div class="co reveal"><span class="mk">FT</span><div><h3><span class="ar">شركة تقنية سعودية</span><span class="en">Saudi tech company</span></h3><span><span class="ar">مطوّرة منصة تتبّع الأساطيل</span><span class="en">Fleet tracking platform developer</span></span><span class="y">2026 → now</span></div></div>
+      <div class="co reveal"><span class="mk">GP</span><div><h3>Gulf Painters</h3><span><span class="ar">تطوير وإدارة المنصة الرقمية</span><span class="en">Website & platform lead</span></span><span class="y">2023</span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#090807"><img src="logo-inano.webp" alt="InanoFilms" loading="lazy" decoding="async"></span><div><h3>InanoFilms KSA</h3><span><span class="ar">تطوير الموقع ودعم الهوية الرقمية</span><span class="en">Website & digital brand support</span></span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#012801"><img src="logo-ak.webp" alt="AnimeKey" loading="lazy" decoding="async"></span><div><h3>AnimeKey</h3><span><span class="ar">تطوير الموقع والتطبيق واختبار الجودة</span><span class="en">Web & app development, QA</span></span></div></div>
+      <div class="co reveal"><span class="mk">BH</span><div><h3>Blue Hills</h3><span><span class="ar">نظام إدارة علاقات العملاء</span><span class="en">CRM system</span></span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#000000"><img src="logo-osas.webp" alt="Osas Alqimam" loading="lazy" decoding="async"></span><div><h3><span class="ar">أسس القمم</span><span class="en">Osas Alqimam</span></h3><span><span class="ar">موقع الشركة</span><span class="en">Company website</span></span></div></div>
+      <div class="co reveal"><span class="mk logo" style="background:#15192c"><img src="logo-topnet.webp" alt="TopNet" loading="lazy" decoding="async"></span><div><h3>TopNet</h3><span><span class="ar">موقع الشركة</span><span class="en">Company website</span></span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="sec" id="process">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">pipeline.yml</span>
+      <h2><span class="ar">طريقة العمل</span><span class="en">How I work</span></h2>
+      <p><span class="ar">أربع مراحل واضحة من أول اجتماع حتى نظام يعمل.</span><span class="en">Four clear stages from the first meeting to a running system.</span></p>
+    </div>
+    <div class="stages">
+      <div class="stg reveal"><div class="stg-h"><b>01</b>discover</div><h3><span class="ar">فهم العمل</span><span class="en">Understand</span></h3><p><span class="ar">أجلس مع الفريق، وأرسم سير العمل الحالي، وأحدّد أين يضيع الوقت.</span><span class="en">I sit with the team, map the current workflow and find where time is lost.</span></p></div>
+      <div class="stg reveal"><div class="stg-h"><b>02</b>design</div><h3><span class="ar">تصميم الحل</span><span class="en">Design</span></h3><p><span class="ar">مخططات وواجهات في Figma، مع نطاق وتكلفة ومدة واضحة.</span><span class="en">Flow diagrams and Figma screens, with clear scope, cost and timeline.</span></p></div>
+      <div class="stg reveal"><div class="stg-h"><b>03</b>build &amp; test</div><h3><span class="ar">البناء والاختبار</span><span class="en">Build & test</span></h3><p><span class="ar">تطوير على مراحل قصيرة تراها بنفسك، وسيناريوهات اختبار لكل ميزة.</span><span class="en">Short build cycles you can see, with test scenarios for each feature.</span></p></div>
+      <div class="stg reveal"><div class="stg-h"><b>04</b>deploy</div><h3><span class="ar">الإطلاق والدعم</span><span class="en">Launch & support</span></h3><p><span class="ar">نشر، وتدريب للمستخدمين، ودعم فني، وتحسين مبني على الاستخدام الفعلي.</span><span class="en">Deployment, user training, support and improvements based on real usage.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec" id="contact">
+  <div class="wrap">
+    <div class="sh">
+      <span class="ftab">hire.http</span>
+      <h2><span class="ar">لنعمل معاً</span><span class="en">Let's work together</span></h2>
+      <p><span class="ar">متاحة للوظائف في تطوير البرمجيات وإدارة المشاريع التقنية، ولمشاريع التطوير والذكاء الاصطناعي وأتمتة الأعمال.</span><span class="en">Open to senior software development and technical PM roles, and to software, AI and automation projects.</span></p>
+    </div>
+    <div class="contact">
+      <div class="box reveal">
+        <div class="box-h"><span class="m">GET</span>/contact</div>
+        <div class="chan">
+          <div class="ch"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span><div><span class="lbl"><span class="ar">البريد الإلكتروني</span><span class="en">Email</span></span><span class="val" id="emVal"></span></div><div class="acts"><a class="mini" id="emLink" href="#"><span class="ar">مراسلة</span><span class="en">Write</span></a><button class="mini" type="button" data-copy="emVal"><span class="ar">نسخ</span><span class="en">Copy</span></button></div></div>
+          <div class="ch"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><div><span class="lbl"><span class="ar">الجوال وواتساب</span><span class="en">Phone & WhatsApp</span></span><span class="val" id="phVal"></span></div><div class="acts"><a class="mini" id="waLink" href="#" target="_blank" rel="noopener">WhatsApp</a><button class="mini" type="button" data-copy="phVal"><span class="ar">نسخ</span><span class="en">Copy</span></button></div></div>
+          <div class="ch"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg></span><div><span class="lbl">LinkedIn</span><span class="val">in/raja-abkar-developer</span></div><div class="acts"><a class="mini" id="liLink" href="#" target="_blank" rel="noopener"><span class="ar">فتح ↗</span><span class="en">Open ↗</span></a></div></div>
+          <div class="ch"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></span><div><span class="lbl">GitHub</span><span class="val" id="ghVal"></span></div><div class="acts"><a class="mini" id="ghLink" href="#" target="_blank" rel="noopener"><span class="ar">فتح ↗</span><span class="en">Open ↗</span></a></div></div>
+          <div class="ch"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3 21 9v6l-9 6-9-6V9z"/><path d="M12 21v-6M21 9l-9 6-9-6M3 15l9-6 9 6M12 3v6"/></svg></span><div><span class="lbl">CodePen</span><span class="val">codepen.io/rajaabkar</span></div><div class="acts"><a class="mini" href="https://codepen.io/rajaabkar" target="_blank" rel="noopener"><span class="ar">فتح ↗</span><span class="en">Open ↗</span></a></div></div>
+        </div>
+      </div>
+
+      <div class="box reveal">
+        <div class="box-h"><span class="m">POST</span>/hire</div>
+        <form class="compose" id="compose" novalidate>
+          <div class="fld"><label for="f-org"><span class="ar">اسمك أو اسم الجهة</span><span class="en">Your name or company</span></label><input id="f-org" type="text" autocomplete="organization"></div>
+          <div class="fld"><label for="f-type"><span class="ar">نوع الطلب</span><span class="en">Request type</span></label>
+            <select id="f-type">
+              <option value="job" data-ar="فرصة وظيفية" data-en="Job opportunity">فرصة وظيفية</option>
+              <option value="project" data-ar="مشروع تطوير أو أتمتة" data-en="Development or automation project">مشروع تطوير أو أتمتة</option>
+              <option value="consult" data-ar="استشارة تقنية" data-en="Technical consultation">استشارة تقنية</option>
+            </select></div>
+          <div class="fld"><label for="f-msg"><span class="ar">التفاصيل</span><span class="en">Details</span></label><textarea id="f-msg"></textarea></div>
+          <div class="send">
+            <a class="btn btn-gold" id="sendMail" href="#"><span class="ar">إرسال بالبريد</span><span class="en">Send by email</span></a>
+            <a class="btn btn-line" id="sendWa" href="#" target="_blank" rel="noopener"><span class="ar">إرسال عبر واتساب</span><span class="en">Send via WhatsApp</span></a>
+            <button class="btn btn-line" type="button" id="copyMsg"><span class="ar">نسخ الرسالة</span><span class="en">Copy message</span></button>
+          </div>
+          <p class="hint"><span class="ar">تُفتح رسالتك جاهزة في تطبيق البريد أو واتساب لترسلها بنفسك.</span><span class="en">Your message opens ready in your email app or WhatsApp for you to send.</span></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© 2026 Raja Abkar · <span class="ar">الرياض، المملكة العربية السعودية</span><span class="en">Riyadh, Saudi Arabia</span></span><span class="code">&lt;RajaAbkar /&gt;</span></div></footer>
+
+<div class="status" aria-hidden="true">
+  <span class="br">⎇ main</span>
+  <span class="av" id="statusAv"><i></i><span id="statusAvT"></span></span>
+  <span class="sp opt" id="clock">Riyadh --:--</span>
+  <span class="opt" id="langStat">AR · RTL</span>
+</div>
+
+<div class="pal-bg" id="pal" hidden>
+  <div class="pal" role="dialog" aria-modal="true" aria-label="Sections">
+    <input id="palIn" type="text" autocomplete="off" aria-label="Search sections">
+    <ul id="palList" role="listbox"></ul>
+    <div class="tip">↑↓ navigate · ↵ open · esc close</div>
+  </div>
+</div>
+<div class="bot" id="bot">
+  <div class="bot-bubble" id="botBubble" role="status" aria-live="polite"><span id="botText"></span><button class="bot-hide" id="botHide" type="button"><span class="ar">إخفاء المساعدة</span><span class="en">Hide assistant</span></button></div>
+  <button class="bot-btn" id="botBtn" type="button" aria-label="Assistant / المساعدة">
+    <svg class="bot-svg" viewBox="0 0 120 150" aria-hidden="true">
+      <defs>
+        <linearGradient id="botG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFC9A6"/><stop offset="1" stop-color="#FF9A62"/></linearGradient>
+        <linearGradient id="botH" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E57A42"/><stop offset="1" stop-color="#A9461B"/></linearGradient>
+      </defs>
+      <ellipse cx="60" cy="145" rx="26" ry="4" fill="rgba(0,0,0,.22)"/>
+      <g class="curl-side curl-l" fill="none" stroke="url(#botH)" stroke-width="5" stroke-linecap="round"><path d="M26 40 c-11 3 -11 12 -1 14 c10 2 9 11 -1 14 c-10 3 -10 11 -1 13"/></g>
+      <g class="curl-side curl-r" fill="none" stroke="url(#botH)" stroke-width="5" stroke-linecap="round"><path d="M94 40 c11 3 11 12 1 14 c-10 2 -9 11 1 14 c10 3 10 11 1 13"/></g>
+      <rect x="15" y="46" width="10" height="18" rx="5" fill="#E57A42"/><rect x="95" y="46" width="10" height="18" rx="5" fill="#E57A42"/>
+      <rect x="22" y="24" width="76" height="62" rx="26" fill="url(#botG)"/>
+      <path d="M24 46 a9 9 0 0 1 6 -16 a9 9 0 0 1 14 -8 a9 9 0 0 1 16 -2 a9 9 0 0 1 16 2 a9 9 0 0 1 14 8 a9 9 0 0 1 6 16 C 90 36 76 32 60 32 C 44 32 30 36 24 46 Z" fill="url(#botH)"/>
+      <g fill="none" stroke="#8A3414" stroke-width="2" stroke-linecap="round" opacity=".7"><path d="M36 26 a4 4 0 1 1 5 4"/><path d="M56 21 a4 4 0 1 1 5 4"/><path d="M76 24 a4 4 0 1 1 5 4"/></g>
+      <line x1="60" y1="20" x2="60" y2="9" stroke="#E57A42" stroke-width="3" stroke-linecap="round"/>
+      <circle class="bot-tip" cx="60" cy="7" r="4.5" fill="#8FF5E0"/>
+      <rect x="31" y="41" width="58" height="31" rx="15" fill="#151B2E"/>
+      <ellipse class="eye" cx="47" cy="55" rx="5" ry="6.5" fill="#8FF5E0"/>
+      <ellipse class="eye" cx="73" cy="55" rx="5" ry="6.5" fill="#8FF5E0"/>
+      <path d="M54 64 q6 5 12 0" stroke="#8FF5E0" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="36" cy="78" r="4" fill="#FF7FA0" opacity=".55"/><circle cx="84" cy="78" r="4" fill="#FF7FA0" opacity=".55"/>
+      <rect x="51" y="85" width="18" height="9" fill="#E57A42"/>
+      <g class="arm-l"><path d="M37 100 q-14 6 -12 20" stroke="#FF9A62" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="25" cy="121" r="5.5" fill="#FFC9A6"/></g>
+      <g class="arm-r"><path d="M83 100 q14 -6 14 -20" stroke="#FF9A62" stroke-width="7" fill="none" stroke-linecap="round"/><circle cx="97" cy="79" r="5.5" fill="#FFC9A6"/></g>
+      <rect x="34" y="92" width="52" height="40" rx="16" fill="url(#botG)"/>
+      <circle class="bot-core" cx="60" cy="109" r="6" fill="#8FF5E0"/>
+      <rect x="46" y="121" width="28" height="4" rx="2" fill="#E57A42" opacity=".6"/>
+    </svg>
+  </button>
+</div>
+<button class="bot-restore" id="botRestore" type="button" hidden aria-label="Show assistant / إظهار المساعدة">
+  <svg viewBox="16 4 88 84" aria-hidden="true"><rect x="22" y="24" width="76" height="62" rx="26" fill="#FFB386"/><path d="M24 46 a9 9 0 0 1 6 -16 a9 9 0 0 1 14 -8 a9 9 0 0 1 16 -2 a9 9 0 0 1 16 2 a9 9 0 0 1 14 8 a9 9 0 0 1 6 16 C 90 36 76 32 60 32 C 44 32 30 36 24 46 Z" fill="#C25A26"/><rect x="31" y="41" width="58" height="31" rx="15" fill="#151B2E"/><ellipse cx="47" cy="55" rx="5" ry="6.5" fill="#8FF5E0"/><ellipse cx="73" cy="55" rx="5" ry="6.5" fill="#8FF5E0"/></svg>
+</button>
+<div class="lbx" id="lb" hidden role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+  <div class="lb-bar"><span><span id="lbTitle"></span> <span class="lb-count" id="lbCount"></span></span><button class="lb-x" id="lbClose" type="button"><span class="ar">إغلاق ✕</span><span class="en">Close ✕</span></button></div>
+  <div class="lb-scroll" id="lbScroll"><img id="lbImg" alt=""></div>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Previous / السابق" hidden></button>
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Next / التالي" hidden></button>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+const C=window.SITE_CONFIG||{};
+const root=document.documentElement;
+const lang=()=>root.getAttribute('data-lang')||'ar';
+const T=(a,e)=>lang()==='ar'?a:e;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* availability (from SITE_CONFIG) */
+const AV={
+  open:{ar:'متاحة لفرص وظيفية ومشاريع جديدة',en:'Available for new roles & projects',c:'var(--ty)',s:'available'},
+  selective:{ar:'متاحة لمشاريع مختارة',en:'Open to selected projects',c:'var(--gold)',s:'selective'},
+  unavailable:{ar:'غير متاحة حالياً',en:'Not available right now',c:'var(--kw)',s:'busy'}
+};
+function renderAvail(){const a=AV[C.availability]||AV.open;
+  $('availText').textContent=T(a.ar,a.en);$('availBadge').style.setProperty('--av',a.c);
+  $('statusAv').style.setProperty('--av',a.c);$('statusAvT').textContent=a.s;}
+
+/* contact links (from SITE_CONFIG) */
+$('emVal').textContent=C.email;$('phVal').textContent=C.phoneDisplay;
+$('ghVal').textContent=(C.github||'').replace(/^https?:\/\/(www\.)?/,'');
+$('emLink').href='mailto:'+C.email;$('waLink').href='https://wa.me/'+C.whatsapp;
+$('liLink').href=C.linkedin;$('ghLink').href=C.github;
+
+/* editor files */
+const S=(c,t)=>`<span class="${c}">${t}</span>`,P=t=>S('p',t),K=t=>S('k',t),Str=t=>S('s','"'+t+'"'),F=t=>S('f',t),Cm=t=>S('c','// '+t);
+const FILES={
+ profile:()=>[
+  Cm('profile.ts'),
+  `${K('export const')} ${F('profile')} ${P('=')} ${P('{')}`,
+  `  name${P(':')} ${Str('Raja Abkar')}${P(',')}`,
+  `  title${P(':')} ${Str('Senior Software Developer')}${P(',')}`,
+  `  alsoDoes${P(':')} ${Str('Technical Project Coordination')}${P(',')}`,
+  `  basedIn${P(':')} ${Str('Riyadh, Saudi Arabia')}${P(',')}`,
+  `  yearsOfExperience${P(':')} ${K('7')}${P(',')}`,
+  `  spoken${P(':')} ${P('{')} ar${P(':')} ${Str('native')}${P(',')} en${P(':')} ${Str('professional')} ${P('},')}`,
+  `  openTo${P(':')} ${P('[')}${Str('full-time roles')}${P(',')} ${Str('projects')}${P('],')}`,
+  `${P('};')}`],
+ focus:()=>[
+  Cm('focus.ts · what I work on'),
+  `${K('export const')} ${F('focus')} ${P('= [')}`,
+  `  ${Str('APIs & system integration')}${P(',')}    ${Cm('ASP.NET Core · Node.js · Laravel')}`,
+  `  ${Str('ERP & business systems')}${P(',')}       ${Cm('Odoo · Oracle')}`,
+  `  ${Str('Mobile applications')}${P(',')}          ${Cm('Flutter · React Native')}`,
+  `  ${Str('Web apps & dashboards')}${P(',')}        ${Cm('Angular · Next.js')}`,
+  `  ${Str('UI/UX design')}${P(',')}                 ${Cm('Figma · usability')}`,
+  `  ${Str('AI & business automation')}${P(',')}     ${Cm('n8n · prompt engineering')}`,
+  `  ${Str('Technical project coordination')}${P(',')}`,
+  `${P('];')}`],
+ work:()=>[
+  Cm('recent-work.ts · details in #projects'),
+  `${K('export const')} ${F('recentWork')} ${P('= [')}`,
+  `  ${P('{')} name${P(':')} ${Str('audit-findings-system')}${P(',')} stack${P(':')} ${P('[')}${Str('ASP.NET Core')}${P(',')} ${Str('PostgreSQL')}${P(',')} ${Str('Angular')}${P('] },')}`,
+  `  ${P('{')} name${P(':')} ${Str('sales-inventory-accounting')}${P(',')} stack${P(':')} ${P('[')}${Str('SQL Server')}${P('] },')}`,
+  `  ${P('{')} name${P(':')} ${Str('fleet-tracking-platform')}${P(',')} status${P(':')} ${Str('in progress')} ${P('},')}`,
+  `  ${P('{')} name${P(':')} ${Str('executive-ai-assistant')}${P(',')} status${P(':')} ${Str('in progress')} ${P('},')}`,
+  `${P('];')}`]
+};
+const NAMES={profile:'profile.ts',focus:'focus.ts',work:'recent-work.ts'};
+function openFile(k){const L=FILES[k]();$('src').innerHTML=L.join('\n');$('ln').textContent=L.map((_,i)=>i+1).join('\n');$('ideTitle').textContent=NAMES[k]+' — raja-abkar';
+  document.querySelectorAll('.etab').forEach(t=>t.setAttribute('aria-selected',t.dataset.file===k?'true':'false'));}
+const tabs=[...document.querySelectorAll('.etab')];
+tabs.forEach((t,i)=>{t.addEventListener('click',()=>openFile(t.dataset.file));
+  t.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const n=tabs[(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length];n.focus();n.click()}})});
+openFile('profile');
+
+/* QR mock pattern (deterministic) */
+(function(){const g=$('qrCells');if(!g)return;const n=15,cs=7,ox=73,oy=47;let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;let h='';
+  const finder=(x,y)=>{h+=`<rect x="${ox+x*cs}" y="${oy+y*cs}" width="${cs*5}" height="${cs*5}" rx="3" fill="none" stroke="var(--gold)" stroke-width="${cs*.9}"/><rect x="${ox+(x+1.6)*cs}" y="${oy+(y+1.6)*cs}" width="${cs*1.8}" height="${cs*1.8}" rx="1.5"/>`};
+  for(let y=0;y<n;y++)for(let x=0;x<n;x++){const inF=(x<6&&y<6)||(x>8&&y<6)||(x<6&&y>8);if(!inF&&rnd()>.5)h+=`<rect x="${ox+x*cs}" y="${oy+y*cs}" width="${cs-1}" height="${cs-1}" rx="1"/>`}
+  finder(0,0);finder(10,0);finder(0,10);g.innerHTML=h;})();
+
+/* project filters */
+const cards=[...document.querySelectorAll('.pcard')],fbtns=[...document.querySelectorAll('.fbtn')];
+fbtns.forEach(b=>{const f=b.dataset.f;b.querySelector('.n').textContent=f==='all'?cards.length:cards.filter(c=>c.dataset.cat.split(' ').includes(f)).length});
+const LIMIT=7;let curF='all',expanded=false;
+function filter(f){curF=f;let shown=0,match=0;cards.forEach(c=>{const ok=f==='all'||c.dataset.cat.split(' ').includes(f);if(ok)match++;const vis=ok&&(f!=='all'||expanded||match<=LIMIT);c.hidden=!vis;if(vis)shown++});
+  $('emptyState').hidden=shown>0;fbtns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.f===f?'true':'false'));
+  const extra=cards.length-LIMIT;$('moreWrap').hidden=f!=='all'||extra<=0;$('moreBtn').setAttribute('aria-expanded',String(expanded));
+  $('moreBtn').innerHTML=expanded?'<span class="ar">عرض أقل</span><span class="en">Show less</span>':'<span class="ar">عرض كل المشاريع (+'+extra+')</span><span class="en">Show all projects (+'+extra+')</span>'}
+fbtns.forEach(b=>b.addEventListener('click',()=>filter(b.dataset.f)));
+$('moreBtn').addEventListener('click',()=>{const was=expanded;expanded=!expanded;filter('all');if(was)$('projects').scrollIntoView({behavior:reduce?'auto':'smooth'})});
+filter('all');
+document.querySelectorAll('[data-filter-link]').forEach(a=>a.addEventListener('click',()=>filter(a.dataset.filterLink)));
+
+/* AI demo (sample data) */
+const Q=[
+ {qa:'كيف كان أداء فريق المبيعات هذا الشهر؟',qe:'How did the sales team do this month?',fn:'sales.performance(period="this_month")',
+  aa:'حقق الفريق <b>412 ألف ريال</b> هذا الشهر، بزيادة 18٪ عن الشهر الماضي. سارة في الصدارة، وهناك 7 متابعات متأخرة مع عملاء.',
+  ae:'The team closed <b>SAR 412K</b> this month, up 18% on last month. Sara leads, and 7 client follow-ups are overdue.',
+  unit:'K',bars:[['سارة','Sara',148],['خالد','Khalid',112],['نورة','Noura',92],['فهد','Fahad',60]]},
+ {qa:'ما توقّع الإيرادات للربع القادم؟',qe:"What's the revenue forecast for next quarter?",fn:'revenue.forecast(horizon="next_quarter")',
+  aa:'بناءً على آخر 6 أشهر، التوقّع <b>1.31 مليون ريال</b> للربع القادم. الأعمدة المخطّطة توقّعات.',
+  ae:'Based on the last 6 months, the forecast is <b>SAR 1.31M</b> next quarter. Striped bars are forecasts.',
+  unit:'K',bars:[['أكتوبر','Oct',412],['نوفمبر','Nov',420,1],['ديسمبر','Dec',478,1],['يناير','Jan',412,1]]},
+ {qa:'أين يذهب أكبر جزء من المصاريف؟',qe:'Where is most of our spending going?',fn:'finance.expenses(group_by="category")',
+  aa:'الرواتب <b>54٪</b> من المصاريف، ثم التسويق 21٪. إعلانات قوقل ارتفعت 30٪ دون زيادة مماثلة في الطلبات.',
+  ae:'Payroll is <b>54%</b> of spending, then marketing at 21%. Google Ads rose 30% without a matching rise in orders.',
+  unit:'%',bars:[['الرواتب','Payroll',54],['التسويق','Marketing',21],['التشغيل','Operations',15],['أخرى','Other',10]]}
+];
+const chat=$('chat');let cur=0,timer;
+function renderChat(i,animate){clearTimeout(timer);cur=i;const d=Q[i],ar=lang()==='ar',max=Math.max(...d.bars.map(b=>b[2]));
+  const bars=d.bars.map(b=>`<div class="bar"><span class="v">${b[2]}${d.unit}</span><span class="col${b[3]?' fc':''}" style="height:${Math.round(b[2]/max*74)}%"></span><span class="lb">${esc(ar?b[0]:b[1])}</span></div>`).join('');
+  const ask=`<div class="call"><span class="k">&gt;&gt;&gt;</span> assistant.<span class="f">ask</span>(<span class="s">"${esc(ar?d.qa:d.qe)}"</span>)<br><span class="c"># → ${esc(d.fn)}</span></div>`;
+  const ans=`<div class="bub">${ar?d.aa:d.ae}<div class="bars">${bars}</div><span class="ret"># sample data · no real system connected</span></div>`;
+  if(!animate||reduce){chat.innerHTML=ask+ans;return}
+  chat.innerHTML=ask+`<div class="bub typing"><i></i><i></i><i></i></div>`;timer=setTimeout(()=>{chat.innerHTML=ask+ans},700)}
+document.querySelectorAll('.q').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.q').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));renderChat(+b.dataset.q,true)}));
+
+/* compose message */
+function msg(){const org=$('f-org').value.trim(),sel=$('f-type'),type=sel.options[sel.selectedIndex].textContent,body=$('f-msg').value.trim();
+  return T(`مرحباً Raja،\n\nأتواصل معك بخصوص: ${type}${org?`\nمن: ${org}`:''}\n\n${body||'[اكتب التفاصيل هنا]'}\n\nشكراً.`,
+           `Hi Raja,\n\nReaching out about: ${type}${org?`\nFrom: ${org}`:''}\n\n${body||'[write the details here]'}\n\nThanks.`)}
+function subj(){const sel=$('f-type');return T('طلب: ','Request: ')+sel.options[sel.selectedIndex].textContent}
+function updLinks(){const m=msg();$('sendMail').href=`mailto:${C.email}?subject=${encodeURIComponent(subj())}&body=${encodeURIComponent(m)}`;$('sendWa').href=`https://wa.me/${C.whatsapp}?text=${encodeURIComponent(m)}`}
+['f-org','f-type','f-msg'].forEach(id=>{$(id).addEventListener('input',updLinks);$(id).addEventListener('change',updLinks)});
+$('compose').addEventListener('submit',e=>e.preventDefault());
+
+/* copy + toast */
+const toast=$('toast');let tt;
+function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('on'),2000)}
+function copy(txt,el){return new Promise(res=>{const fb=()=>{if(el){if(el.select){el.focus();el.select()}else{const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r)}}res(false)};try{navigator.clipboard.writeText(txt).then(()=>res(true),fb)}catch(e){fb()}})}
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const el=$(b.dataset.copy);copy(el.textContent.trim(),el).then(ok=>say(ok?T('تم النسخ','Copied'):T('تم تحديد النص، انسخه يدوياً','Selected, copy it manually')))}));
+$('copyMsg').addEventListener('click',()=>copy(msg(),$('f-msg')).then(ok=>say(ok?T('تم نسخ الرسالة','Message copied'):T('انسخ الرسالة يدوياً','Copy the message manually'))));
+
+/* language */
+function applyLang(){
+  document.querySelectorAll('#f-type option').forEach(o=>o.textContent=o.dataset[lang()]);
+  $('f-org').placeholder=T('مثال: شركة الأمثلة للتقنية','e.g. Example Tech Co.');
+  $('f-msg').placeholder=T('صف الوظيفة أو المشروع باختصار...','Briefly describe the role or project...');
+  $('palIn').placeholder=T('انتقل إلى قسم...','Go to section...');
+  $('langStat').textContent=lang()==='ar'?'AR · RTL':'EN · LTR';
+  renderAvail();renderChat(cur,false);updLinks();
+}
+$('langBtn').addEventListener('click',()=>{const l=lang()==='ar'?'en':'ar';root.setAttribute('data-lang',l);root.dir=l==='ar'?'rtl':'ltr';root.lang=l;try{localStorage.setItem('ra-lang',l)}catch(e){}applyLang()});
+applyLang();
+
+/* clock */
+function tick(){try{$('clock').textContent='Riyadh '+new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Riyadh'}).format(new Date())}catch(e){}}
+tick();setInterval(tick,30000);
+
+/* nav active state */
+const navLinks=[...document.querySelectorAll('.links a')];
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){const id=en.target.id;navLinks.forEach(a=>a.setAttribute('aria-current',a.getAttribute('href')==='#'+id?'true':'false'))}}),{rootMargin:'-40% 0px -55% 0px'});
+['projects','ai','services','skills','experience','companies','process','contact'].forEach(id=>{const el=$(id);if(el)io.observe(el)});
+
+/* command palette */
+const pal=$('pal'),palIn=$('palIn'),palList=$('palList');
+const items=[['top','profile.ts','الرئيسية','Home'],['projects','projects/','المشاريع','Projects'],['ai','ai/','الذكاء الاصطناعي والأتمتة','AI & Automation'],['services','services.ts','الخدمات','Services'],['skills','skills/','المهارات التقنية','Skills'],['experience','git.log','الخبرة المهنية','Experience'],['companies','clients.ts','الجهات','Companies'],['process','pipeline.yml','طريقة العمل','How I work'],['contact','hire.http','التواصل','Contact']];
+let sel=0,shown=items,lastFocus=null;
+function go(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})}
+function drawPal(){const q=palIn.value.toLowerCase().trim();shown=items.filter(it=>!q||it.join(' ').toLowerCase().includes(q));sel=Math.min(sel,Math.max(0,shown.length-1));
+  palList.innerHTML=shown.map((it,i)=>`<li role="option" aria-selected="${i===sel}" class="${i===sel?'on':''}" data-i="${i}">${esc(T(it[2],it[3]))}<span class="fn">${it[1]}</span></li>`).join('')||`<li>${T('لا نتائج','No matches')}</li>`}
+function openPal(){lastFocus=document.activeElement;pal.hidden=false;palIn.value='';sel=0;drawPal();setTimeout(()=>palIn.focus(),10)}
+function closePal(){pal.hidden=true;if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+$('palBtn').addEventListener('click',openPal);
+palIn.addEventListener('input',()=>{sel=0;drawPal()});
+palList.addEventListener('click',e=>{const li=e.target.closest('li[data-i]');if(li){const id=shown[+li.dataset.i][0];closePal();go(id)}});
+pal.addEventListener('click',e=>{if(e.target===pal)closePal()});
+addEventListener('keydown',e=>{
+  if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();pal.hidden?openPal():closePal();return}
+  if(pal.hidden)return;
+  if(e.key==='Escape')closePal();
+  else if(e.key==='ArrowDown'){e.preventDefault();sel=(sel+1)%Math.max(1,shown.length);drawPal()}
+  else if(e.key==='ArrowUp'){e.preventDefault();sel=(sel-1+shown.length)%Math.max(1,shown.length);drawPal()}
+  else if(e.key==='Enter'&&shown[sel]){e.preventDefault();const id=shown[sel][0];closePal();go(id)}
+});
+
+/* animated background: binary rain + drifting code keywords */
+(function(){const cv=$('bgfx');if(!cv||!cv.getContext)return;const ctx=cv.getContext('2d');
+  const SYM='{}[]()<>/=;:+*#$&|!?';
+  const WORDS=['const','async','await','=>','</>','{ }','def','import','return','SELECT *','API','JSON','git push','npm run','flutter','C#','SQL','if ( )','null','true','class','fn()','0x1F','await fetch()','PHP','.NET','Python','Dart','JWT','REST','<div>','console.log()','try { }','LangGraph','n8n','Odoo'];
+  let W=0,H=0,fs=14,lh=18,cols=[],words=[],col={},mouse={x:-1e4,y:-1e4},run=true;const MR=150;
+  function rgb(h){h=(h||'').replace('#','');if(h.length===3)h=h.split('').map(c=>c+c).join('');const n=parseInt(h||'ffa270',16);return (n>>16&255)+','+(n>>8&255)+','+(n&255)}
+  function colors(){const cs=getComputedStyle(root);col.ar=rgb(cs.getPropertyValue('--gold').trim());col.br=rgb(cs.getPropertyValue('--fn').trim());
+    col.k=root.getAttribute('data-theme')==='light'||(!root.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: light)').matches)?1.1:1}
+  const rch=()=>Math.random()<.86?(Math.random()<.5?'0':'1'):SYM[Math.random()*SYM.length|0];
+  function newCol(x,init){const len=8+(Math.random()*16|0);return {x,len,y:init?Math.random()*(H+len*lh):-Math.random()*H*.6,sp:.35+Math.random()*1.1,chars:Array.from({length:len},rch),c:Math.random()<.78?'ar':'br'}}
+  function newWord(init){return {x:Math.random()*W,y:init?Math.random()*H:H+20+Math.random()*80,vy:-(.12+Math.random()*.22),t:WORDS[Math.random()*WORDS.length|0],a:.2+Math.random()*.16,c:Math.random()<.6?'br':'ar',s:fs+(Math.random()*4|0)}}
+  function size(){const dpr=Math.min(2,devicePixelRatio||1),oldW=W;W=innerWidth;H=innerHeight;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);
+    fs=W<600?12:14;lh=Math.round(fs*1.3);
+    if(!cols.length||Math.abs(oldW-W)>40){const gap=fs*(W<600?2.2:1.9),n=Math.floor(W/gap);cols=[];for(let i=0;i<n;i++)if(Math.random()<.62)cols.push(newCol(i*gap+gap/2,true));
+      const nw=Math.round(Math.max(5,Math.min(14,W*H/110000)));words=Array.from({length:nw},()=>newWord(true))}
+    draw()}
+  function boost(x,y){const dx=x-mouse.x,dy=y-mouse.y,d=Math.sqrt(dx*dx+dy*dy);return d<MR?1+2.2*(1-d/MR):1}
+  function draw(){ctx.clearRect(0,0,W,H);ctx.direction='ltr';ctx.textAlign='center';ctx.textBaseline='middle';
+    const light=col.k>1,glow=light?5:13;ctx.font='500 '+fs+'px "JetBrains Mono",ui-monospace,Menlo,monospace';
+    for(const c of cols){const cc=col[c.c];
+      for(let k=c.len-1;k>=1;k--){const y=c.y-k*lh;if(y<-lh||y>H+lh)continue;
+        const t=1-k/c.len,a=Math.min(.95,(.07+.32*t)*col.k*boost(c.x,y));
+        if(k<4){ctx.shadowColor='rgba('+cc+',.85)';ctx.shadowBlur=glow*.6}else ctx.shadowBlur=0;
+        ctx.fillStyle='rgba('+cc+','+a.toFixed(3)+')';ctx.fillText(c.chars[k],c.x,y)}
+      const y=c.y;if(y>-lh&&y<H+lh){ctx.shadowColor='rgba('+cc+',1)';ctx.shadowBlur=glow;
+        ctx.fillStyle=light?'rgba('+cc+',.9)':'rgba(255,246,238,'+Math.min(1,.8*boost(c.x,y)).toFixed(3)+')';ctx.fillText(c.chars[0],c.x,y)}}
+    for(const w of words){const fade=Math.min(1,(H+20-w.y)/120,(w.y+20)/120);const a=Math.max(0,Math.min(.9,w.a*fade*col.k*boost(w.x,w.y)));
+      ctx.font='600 '+w.s+'px "JetBrains Mono",ui-monospace,Menlo,monospace';ctx.shadowColor='rgba('+col[w.c]+',.9)';ctx.shadowBlur=glow*.9;
+      ctx.fillStyle='rgba('+col[w.c]+','+a.toFixed(3)+')';ctx.fillText(w.t,w.x,w.y)}
+    ctx.shadowBlur=0}
+  function step(){for(let i=0;i<cols.length;i++){const c=cols[i];c.y+=c.sp;if(Math.random()<.04)c.chars[Math.random()*c.len|0]=rch();
+      if(c.y-c.len*lh>H)cols[i]=newCol(c.x,false)}
+    for(let i=0;i<words.length;i++){const w=words[i];w.y+=w.vy;if(w.y<-30)words[i]=newWord(false)}}
+  function loop(){if(run){step();draw()}requestAnimationFrame(loop)}
+  colors();size();
+  addEventListener('resize',()=>{clearTimeout(size.t);size.t=setTimeout(size,120)});
+  const mq=matchMedia('(prefers-color-scheme: dark)');if(mq.addEventListener)mq.addEventListener('change',()=>{colors();draw()});
+  new MutationObserver(()=>{colors();draw()}).observe(root,{attributes:true,attributeFilter:['data-theme']});
+  addEventListener('pointermove',e=>{mouse.x=e.clientX;mouse.y=e.clientY},{passive:true});
+  document.addEventListener('pointerleave',()=>{mouse.x=mouse.y=-1e4});
+  document.addEventListener('visibilitychange',()=>{run=!document.hidden});
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(draw);
+  if(!reduce)requestAnimationFrame(loop);
+})();
+/* robot guide */
+(function(){const bot=$('bot'),bub=$('botBubble'),txt=$('botText'),restore=$('botRestore');if(!bot)return;
+  const L={
+    hero:['أهلاً! أنا المساعدة الرقمية لـ Raja. انزل معي وأوريك أعمالها.','Hi! I\'m Raja\'s digital assistant. Scroll with me and I\'ll show you her work.'],
+    projects:['هنا أهم مشاريعها. اضغط «التفاصيل» لتشوف دورها في كل مشروع.','Her key projects. Open "Details" to see her role in each one.'],
+    ai:['جرّب تسأل المساعد التنفيذي هنا. الأرقام تجريبية للعرض فقط.','Try asking the executive assistant here. The figures are sample data.'],
+    services:['تحتاج شيئاً معيّناً؟ هذه الخدمات التي تقدّمها.','Need something specific? These are the services she offers.'],
+    skills:['كل مهاراتها مجمّعة حسب نوع العمل.','All her skills, grouped by the kind of work.'],
+    experience:['افتح أي دور لتشوف المسؤوليات بالتفصيل.','Open any role to see the responsibilities.'],
+    companies:['جهات عملت معها Raja.','Companies Raja has worked with.'],
+    process:['هكذا تمشي المشاريع معها، من أول اجتماع حتى الإطلاق.','This is how projects run with her, from first meeting to launch.'],
+    contact:['وصلت! أرسل لها رسالتك، تفتح جاهزة في البريد أو واتساب.','You made it! Send her a message, it opens ready in email or WhatsApp.']
+  };
+  const INTRO=[
+    ['أهلاً وسهلاً! أنا المساعدة الرقمية لـ Raja Abkar.','Hi there! I\'m Raja Abkar\'s digital assistant.'],
+    ['Raja مطوّرة برمجيات بخبرة تتجاوز 7 سنوات، تبني الأنظمة والتطبيقات وواجهات API، وتؤتمت الأعمال بالذكاء الاصطناعي.','Raja is a software developer with 7+ years building systems, apps and APIs, and automating business with AI.'],
+    ['وتصمّم الواجهات، وتنسّق المشاريع التقنية من الفكرة حتى الإطلاق.','She also designs interfaces and coordinates tech projects from idea to launch.'],
+    ['انزل معي وأوريك أعمالها، أو انتقل لقسم التواصل وراسلها مباشرة.','Scroll with me to see her work, or jump to Contact and message her directly.']
+  ];
+  let cur='hero',hideT,introIdx=-1,introT;const small=()=>innerWidth<=600;
+  function setText(){if(cur==='hero'&&introIdx>=0){const l=INTRO[introIdx];txt.textContent=T(l[0],l[1]);return}const l=L[cur];if(l)txt.textContent=T(l[0],l[1])}
+  function intro(){introIdx=0;const show=()=>{if(cur!=='hero'||bot.hidden){introIdx=-1;return}
+      setText();bot.classList.remove('hop');void bot.offsetWidth;bot.classList.add('hop');bub.classList.add('on');clearTimeout(hideT);
+      if(introIdx<INTRO.length-1){introT=setTimeout(()=>{introIdx++;show()},introIdx===0?3200:4800)}else{hideT=setTimeout(()=>{bub.classList.remove('on');introIdx=-1},8000)}};
+    show()}
+  function speak(force){setText();bot.classList.remove('hop');void bot.offsetWidth;bot.classList.add('hop');
+    if(small()&&!force)return;bub.classList.add('on');clearTimeout(hideT);hideT=setTimeout(()=>bub.classList.remove('on'),7000)}
+  const secs=[[document.querySelector('.hero'),'hero']].concat(['projects','ai','services','skills','experience','companies','process','contact'].map(id=>[$(id),id])).filter(x=>x[0]);
+  const map=new Map(secs);
+  const obs=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){const k=map.get(en.target);if(k&&k!==cur){cur=k;clearTimeout(introT);introIdx=-1;if(!bot.hidden)speak(false)}}}),{rootMargin:'-45% 0px -50% 0px'});
+  secs.forEach(x=>obs.observe(x[0]));
+  $('botBtn').addEventListener('click',()=>{if(bub.classList.contains('on')){bub.classList.remove('on');clearTimeout(hideT)}else speak(true)});
+  function setHidden(h){bot.hidden=h;restore.hidden=!h;if(h)bub.classList.remove('on');try{localStorage.setItem('ra-bot',h?'off':'on')}catch(e){}}
+  $('botHide').addEventListener('click',()=>setHidden(true));
+  restore.addEventListener('click',()=>{setHidden(false);speak(true)});
+  $('langBtn').addEventListener('click',setText);
+  let off=false;try{off=localStorage.getItem('ra-bot')==='off'}catch(e){}
+  if(off){bot.hidden=true;restore.hidden=false}else setTimeout(intro,1200);
+  setText();
+})();
+/* image lightbox (with groups) */
+(function(){const lb=$('lb'),img=$('lbImg'),sc=$('lbScroll'),prev=$('lbPrev'),next=$('lbNext');let back=null,list=[],idx=0;
+  function show(){const b=list[idx],src=b.querySelector('img');img.src=src.src;img.alt=src.alt;$('lbTitle').textContent=b.dataset.lbTitle||'';
+    sc.classList.toggle('fit',b.hasAttribute('data-lb-fit'));sc.scrollTop=0;const g=list.length>1;prev.hidden=next.hidden=!g;$('lbCount').textContent=g?(idx+1)+' / '+list.length:''}
+  function open(b){back=b;const g=b.dataset.lbGroup;list=g?[...document.querySelectorAll('[data-lb-group="'+g+'"]')]:[b];idx=Math.max(0,list.indexOf(b));show();lb.hidden=false;document.body.style.overflow='hidden';$('lbClose').focus()}
+  function close(){lb.hidden=true;document.body.style.overflow='';if(back)back.focus()}
+  const go=d=>{if(list.length>1){idx=(idx+d+list.length)%list.length;show()}};
+  document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>open(b)));
+  $('lbClose').addEventListener('click',close);prev.addEventListener('click',()=>go(-1));next.addEventListener('click',()=>go(1));
+  lb.addEventListener('click',e=>{if(e.target===lb||e.target===sc)close()});
+  addEventListener('keydown',e=>{if(lb.hidden)return;const rtl=root.dir==='rtl';
+    if(e.key==='Escape')close();else if(e.key==='ArrowRight')go(rtl?-1:1);else if(e.key==='ArrowLeft')go(rtl?1:-1)});
+})();
+})();
+</script>
+
+</body>
+</html>
